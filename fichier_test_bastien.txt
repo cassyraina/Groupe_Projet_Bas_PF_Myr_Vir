@@ -1,1 +1,1 @@
-Ce fichier sert de test.
+Ce fichier sert de test pour GitHub.
