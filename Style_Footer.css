@@ -1,38 +1,99 @@
+/* Partie Bastien - Footer */
+
 /*Affichage responsive smartphone "Small" (<640px)*/
 @media screen and (max-width: 428px) {
 
+    /* Body */
     p, a{
-        font-family: 'Righteous', cursive;  /*Font Corps de texte*/
+        color: #442187;
+        font-family: 'Righteous', cursive;
+        font-size: 25px;
     }
 
-    /* Newsletter/Contact */
-    .footer_newslet{}
+    /* Footer */
+    footer{
+        background-color: #ffffff;
+        display: flex;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
 
-    .newslet_form{}
+    /* Newsletter */
+    .footer_newslet{
+        width: 50%;
+    }
 
-    #newslet_form--email{}
+    .footer_newslet_form p{
+        margin-bottom: auto;
+    }
 
-    #footer_contact {}
+    #footer_newslet_form_email{
+        padding: 10px;
+    }
+
+    #footer_newslet_form_button{
+        background-color: #442187;
+        border: 2px solid #BABABA;
+        border-radius: 10px;
+        color: #ffffff;
+        padding: 8px 8px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    /* Contact */
+    .footer_contact {
+        margin: 25px;
+        width: 50%;
+    }
+
+    .footer_contact a{
+        text-decoration: none;
+    }
 
     /* Réseaux sociaux */
+    .footer_res{
+        width: ;
+        /* grid-area: res; */
+    }
 
-    .footer_res{}
+    .footer_res p{
+        font-size: 20px;
+    }
 
-    .footer_res p{}
-
-    .footer_res a{}
+    .footer_res a{
+        text-decoration: none;
+        font-size: 45px;
+        margin: 15px;
+    }
 
     /* CGU, CGV, Mentions légales, Politique de confidentialité */
+    .footer_legis{
+        width: 100%;
+    }
 
-    .footer_legis{}
+    .footer_legis ul{
+        list-style: none;
+    }
 
-    .footer_legis a{}
+    .footer_legis a{
+        text-decoration: none;
+        margin: 10px;
+    }
 
     /* Crédits/Copyright */
+    .footer_cc{
 
-    .footer_cc--credits{}
+    }
 
-    .footer_cc--copyright{}
+    #footer_cc_credits{
+        font-size: 16px;
+    }
+
+    #footer_cc_copyright{
+        font-size: 16px;
+    }
 
 }
 

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eighties Auction - Bienvenue sur l'enchère vintage</title>
     <link rel="shortcut icon" type="image/png" href="" />
-    <link rel="stylesheet" href="Style.css" />
+    <link rel="stylesheet" href="Style_Footer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,63 +25,83 @@
     C'est parti mon kiki !"
     />
   </head>
+  <body>
+    <!-- PARTIE HEADER : LOGO, NAVBAR, SLIDER, TIMER DATE ENCHÈRES, ACCROCHES PRODUITS -->
 
-  <!-- PARTIE HEADER : LOGO, NAVBAR, SLIDER, TIMER DATE ENCHÈRES, ACCROCHES PRODUITS -->
+    <!-- PARTIE MAIN : PRESENTATION CONCEPT SITE, DESCRIPTION DU CONTENU -->
 
-  <!-- PARTIE BODY : PRESENTATION CONCEPT SITE, DESCRIPTION DU CONTENU -->
+    <!-- PARTIE FOOTER : NEWSLETTER, MENTIONS LÉGALES, RÉSEAUX SOCIAUX, CGU,CGV, POLITIQUE DE CONFIDENTIALITÉ, CRÉDITS, COPYRIGHT -->
+    <footer>
+        <!-- Newsletter -->
+        <div class="footer_newslet">
+          <form class="footer_newslet_form">
+            <p>Newsletter</p>
+            <input
+              id="footer_newslet_form_email"
+              type="email"
+              placeholder="Saisissez votre email"
+            />
+            <button type="submit" id="footer_newslet_form_button">
+              Envoyer
+            </button>
+          </form>
+        </div>
 
-  <!-- PARTIE FOOTER : NEWSLETTER, MENTIONS LÉGALES, RÉSEAUX SOCIAUX, CGU,CGV, POLITIQUE DE CONFIDENTIALITÉ, CRÉDITS, COPYRIGHT -->
-  <footer>
-    <!-- Newsletter/Contact -->
-    <div class="footer_newslet">
-      <form class="newslet_form">
-        <p>Newsletter</p>
-        <input id="newslet_form--email" type="email" placeholder="Saisissez votre email" />
-        <button type="submit">Envoyer</button>
-      </form>
-      <a id="footer_contact"
-        href="https://"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Contact</a
-      >
-    </div>
-    <!-- Réseaux sociaux -->
-    <div class="footer_res">
-      <p>Suivez-nous:</p>
-      <a href="https://fr-fr.facebook.com/" target="_blank"
-        ><i class="fab fa-facebook-square"></i
-      ></a>
-      <a href="https://twitter.com/?lang=fr" target="_blank"
-        ><i class="fab fa-twitter-square"></i
-      ></a>
-      <a href="https://www.instagram.com/?hl=fr" target="_blank"
-        ><i class="fab fa-instagram-square"></i
-      ></a>
-      <a href="https://www.pinterest.fr/" target="_blank"
-        ><i class="fab fa-pinterest-square"></i
-      ></a>
-    </div>
+      <!-- Contact -->
+        <div class="footer_contact">
+          <a
+          href="https://"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Contact</a
+        >
+        </div>
+        <!-- Réseaux sociaux -->
+        <div class="footer_res">
+          <p>Suivez-nous:</p>
+              <a href="https://fr-fr.facebook.com/" target="_blank"
+            ><i class="fab fa-facebook"></i>
+          </a>
+              <a href="https://twitter.com/?lang=fr" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+              <a href="https://www.instagram.com/?hl=fr" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+              <a href="https://www.pinterest.fr/" target="_blank"
+            ><i class="fab fa-pinterest"></i
+          ></a>
+        </div>
 
-    <!-- CGU, CGV, Mentions légales, Politique de confidentialité -->
-    <div class="footer_legis">
-      <a href="http://www.inc-conso.fr/content/cgu">CGU</a>
-      <a href="https://www.legalplace.fr/guides/cgv-obligatoires/">CGV</a>
-      <a href="https://www.ionos.fr/digitalguide/sites-internet/droit-dinternet/que-doivent-contenir-mentions-legales-dun-site-internet/">Mentions légales</a>
-      <a href="https://www.ionos.fr/digitalguide/sites-internet/droit-dinternet/politique-de-confidentialite-sur-internet/">Politique de confidentialité</a>
-    </div>
+        <!-- CGU, CGV, Mentions légales, Politique de confidentialité -->
+        <div class="footer_legis">
+          <ul>
+            <li><a href="http://www.inc-conso.fr/content/cgu">CGU</a></li>
+            <li><a href="https://www.legalplace.fr/guides/cgv-obligatoires/">CGV</a></li>
+            <li><a
+              href="https://www.ionos.fr/digitalguide/sites-internet/droit-dinternet/que-doivent-contenir-mentions-legales-dun-site-internet/"
+              >Mentions légales</a
+            ></li>
+            <li><a
+              href="https://www.ionos.fr/digitalguide/sites-internet/droit-dinternet/politique-de-confidentialite-sur-internet/"
+              >Politique de confidentialité</a
+            ></li>
+          </ul>
+        </div>
 
-    <!-- Crédits/Copyright -->
-    <div class="footer_cc">
-      <p id="footer_cc--credits">Crédits : agence CHOCOBEAT</p>
-      <p id="footer_cc--copyright">COPYRIGHT © 80's Auction 2021. Tous droits réservés.</p>
-    </div>
-
+        <!-- Crédits/Copyright -->
+        <div class="footer_cc">
+          <p id="footer_cc_credits">Crédits : agence CHOCOBEAT</p>
+          <p id="footer_cc_copyright">
+            COPYRIGHT © 80's Auction 2021. Tous droits réservés.
+          </p>
+        </div>
+    </footer>
     <script
-      src="https://kit.fontawesome.com/16019f142c.js"
-      crossorigin="anonymous"
+        src="https://kit.fontawesome.com/16019f142c.js"
+        crossorigin="anonymous"
     ></script>
-  </footer>
+  </body>
 </html>
 
 <!-- FIN PARTIE FOOTER -->
