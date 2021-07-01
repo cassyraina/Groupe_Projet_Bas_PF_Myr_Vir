@@ -1,5 +1,21 @@
 /*Affichage responsive smartphone "Small" (<640px)*/
 @media screen and (max-width: 428px) {
+  .slider {
+    background-image: url(desktop/desktop_machinebubblegum.jpg);
+    height: 600px;
+    background-size: cover;
+      text-align: center;
+  
+      }
+    
+  
+.slider_timer_container {
+width: 400px;
+  margin-left: -320px;
+}
+
+
+
 }
 
 /* Affichage responsive tablette "Medium" (640px to 1280px) */
@@ -68,6 +84,8 @@ grid-template-areas: "slider_retour slider_produit slider_timer slider_suivant "
 text-align: left;
 vertical-align: middle;
 flex-wrap: nowrap;
+background-position: center center;
+      background-attachment: fixed;
   }
 
 .slider_retour{
@@ -150,7 +168,7 @@ text-align: center;
   text-align: center;
   background-color:#DF2688;
   padding-top:10px;
-  border-radius: 6%;}
+  border-radius: 6px;}
   
   .slider_timer_2heures p {
     margin-top: -5px;
@@ -167,7 +185,7 @@ text-align: center;
   text-align: center;
   background-color:#DF2688;
   padding-top:10px;
-  border-radius: 6%;
+  border-radius: 6px;
 }
 
 .slider_timer_6minutes p {

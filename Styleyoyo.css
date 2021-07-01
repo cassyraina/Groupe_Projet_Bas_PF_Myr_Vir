@@ -59,6 +59,8 @@ margin-top: -20px;
 display: grid;
 justify-content: center;
 background-image: url(desktop/desktop_yoyo.jpg);
+background-position: center center;
+      background-attachment: fixed;
 height: 600px;
 margin-top: -20px;
 margin-left: -20px;

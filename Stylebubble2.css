@@ -1,0 +1,45 @@
+/*Affichage responsive smartphone "Small" (<640px)*/
+@media screen and (max-width: 428px) {
+  .slider_arrow {
+    margin: 0;
+    width: auto;
+  }
+
+  
+    }
+    
+
+
+
+   
+
+
+
+body {
+  margin: 0px;
+ }
+
+.slider {
+width: 100%;
+
+}
+.slider_background {
+background-image: url(desktop/desktop_walkman.jpg);
+    height: 600px;
+    background-size: cover;
+      text-align: center;
+      background-position: center center;
+      background-attachment: fixed;
+}
+
+.slider_arrow {
+  width: auto;
+}
+.slider_arrow li  {
+  color:#442187;
+list-style: none;
+display: inline-block;
+font-size: 50px;
+margin: 240px;
+align-items: center;
+}
