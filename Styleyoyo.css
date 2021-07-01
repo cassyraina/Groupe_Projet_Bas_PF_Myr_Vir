@@ -1,0 +1,233 @@
+/*Affichage responsive smartphone "Small" (<640px)*/
+@media screen and (max-width: 428px) {
+}
+
+/* Affichage responsive tablette "Medium" (640px to 1280px) */
+@media screen and (min-width: 428px) and (max-width: 1280px) {
+}
+
+/*Affichage responsive tablette "Large" (1280px and larger)*/
+@media screen and (min-width: 1280px) {
+}
+
+p{
+    font-family: 'Bebas Neue', cursive; /*Font Logos et Titres*/
+    font-family: 'Righteous', cursive;  /*Font Corps de texte*/
+}
+
+
+  
+  a {
+    color:#442187;
+    text-decoration:none; 
+
+  }
+  
+  /* header */
+ body {
+  margin: 0px;
+ }
+
+  .header {
+  
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+background-color:white;
+margin-top: -20px;
+  }
+  
+  .header ul {
+    list-style: none;
+    overflow: hidden;
+
+  }
+
+.header li {
+  margin-top: 25px;
+
+}
+.header img {
+  margin-top: -25px;
+
+}
+/* fin header */
+
+
+/* slider */
+
+.slider {
+display: grid;
+justify-content: center;
+background-image: url(desktop/desktop_yoyo.jpg);
+height: 600px;
+margin-top: -20px;
+margin-left: -20px;
+background-size: cover;
+grid-template-columns: 10% 40% 40% 10%;
+grid-template-areas: "slider_retour slider_produit slider_timer slider_suivant ";
+text-align: left;
+vertical-align: middle;
+flex-wrap: nowrap;
+  }
+
+.slider_retour{
+  font-size: 50px;
+  color:#442187;
+  margin-top: 300px;
+  margin-left: 40px;
+}
+
+.slider_produit {
+  margin-top: 150px;
+  font-family:'Bebas Neue', cursive;
+  font-size: 60px;
+  line-height: 60px;
+  color:#442187;
+}
+
+.slider_produit p {
+  font-family:'Righteous', cursive;
+  font-size: 14px;
+  line-height: 20px;
+  line-height: 20px;
+  color:#442187;
+  width:300px;
+}
+
+.slider_ensavoir{
+font-family:'Bebas Neue', cursive;
+font-size: 30px;
+color:#442187;
+
+}
+
+
+.slider_timer_container{
+display: flex;
+flex-direction: column;
+}
+
+.slider_timer{
+margin-left: 250px;
+margin-top: 30px;
+font-family:'Bebas Neue', cursive;
+font-size: 20px;
+color:#DF2688;
+text-align: center;
+padding-bottom: 10px;
+}
+
+.slider_timer_chiffres {
+margin-left: 250px;
+display: grid;
+flex-wrap: nowrap;
+grid-gap: 8px;
+grid-template-columns: 33% 33% 33%;
+grid-template-areas: "slider_timer_7jours slider_timer_2heures slider_timer_6minutes ";
+text-align: center;
+}
+
+.slider_timer_7jours{
+  font-family:'Bebas Neue', cursive;
+  font-size: 50px;
+  color:white;
+  text-align: center;
+  background-color:#DF2688;
+  padding-top:10px;
+  border-radius: 6px;
+}
+
+.slider_timer_7jours p {
+  margin-top: -5px;
+  font-family:'Bebas Neue', cursive;
+  font-size: 12px;
+  color:white;
+  text-align: center;
+}
+
+.slider_timer_2heures {
+  font-family:'Bebas Neue', cursive;
+  font-size: 50px;
+  color:white;
+  text-align: center;
+  background-color:#DF2688;
+  padding-top:10px;
+  border-radius: 6%;}
+  
+  .slider_timer_2heures p {
+    margin-top: -5px;
+    font-family:'Bebas Neue', cursive;
+    font-size: 12px;
+    color:white;
+    text-align: center;
+  }
+
+.slider_timer_6minutes{
+  font-family:'Bebas Neue', cursive;
+  font-size: 50px;
+  color:white;
+  text-align: center;
+  background-color:#DF2688;
+  padding-top:10px;
+  border-radius: 6%;
+}
+
+.slider_timer_6minutes p {
+  margin-top: -5px;
+  font-family:'Bebas Neue', cursive;
+  font-size: 12px;
+  color:white;
+  text-align: center;
+}
+
+.slider_timer_inscription {
+  margin-left: 250px;
+  margin-top: 10px;
+  font-family:'Bebas Neue', cursive;
+font-size: 25px;
+color:white;
+background-color:#442187;
+padding-top: 12px;
+text-align: center;
+border-radius: 5px;
+align-items: center;
+}
+.slider_timer_inscription p{
+  font-family:'Bebas Neue', cursive;
+  font-size: 12px;
+  color:white;
+  margin-top: -2px;
+  text-align: center;
+  align-items: center;
+}
+
+.slider_suivant{
+  font-size: 50px;
+  color:#442187;
+  margin-top: 300px;
+  margin-left: 70px;
+  margin-right: 50px;
+}
+
+/* fin slider */
+
+
+
+  /* 48em = 768px */
+  
+  @media (min-width: 48em) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+  }
