@@ -1,0 +1,47 @@
+/*Affichage responsive smartphone "Small" (<640px)*/
+@media screen and (max-width: 428px) {
+
+    p, a{
+        font-family: 'Righteous', cursive;  /*Font Corps de texte*/
+    }
+
+    /* Newsletter/Contact */
+    .footer_newslet{}
+
+    .newslet_form{}
+
+    #newslet_form--email{}
+
+    #footer_contact {}
+
+    /* Réseaux sociaux */
+
+    .footer_res{}
+
+    .footer_res p{}
+
+    .footer_res a{}
+
+    /* CGU, CGV, Mentions légales, Politique de confidentialité */
+
+    .footer_legis{}
+
+    .footer_legis a{}
+
+    /* Crédits/Copyright */
+
+    .footer_cc--credits{}
+
+    .footer_cc--copyright{}
+
+}
+
+/* Affichage responsive tablette "Medium" (640px to 1280px) */
+@media screen and (min-width: 428px) and (max-width: 1280px) {
+
+}
+
+/*Affichage responsive PC/Desktop "Large" (1280px and larger)*/
+@media screen and (min-width: 1280px) {
+
+}
