@@ -217,7 +217,7 @@ text-align: center;
   text-align: center;
   background-color:#DF2688;
   padding-top:10px;
-  border-radius: 6%;}
+  border-radius: 6px;}
   
   .slider_timer_2heures p {
     margin-top: -5px;
@@ -234,7 +234,7 @@ text-align: center;
   text-align: center;
   background-color:#DF2688;
   padding-top:10px;
-  border-radius: 6%;
+  border-radius: 6px;
 }
 
 .slider_timer_6minutes p {

@@ -152,7 +152,7 @@ text-align: center;
   text-align: center;
   background-color:#DF2688;
   padding-top:10px;
-  border-radius: 6%;}
+  border-radius: 6px;}
   
   .slider_timer_2heures p {
     margin-top: -5px;
@@ -169,7 +169,7 @@ text-align: center;
   text-align: center;
   background-color:#DF2688;
   padding-top:10px;
-  border-radius: 6%;
+  border-radius: 6px;
 }
 
 .slider_timer_6minutes p {
@@ -211,23 +211,3 @@ align-items: center;
 
 /* fin slider */
 
-
-
-  /* 48em = 768px */
-  
-  @media (min-width: 48em) {
-    .header li {
-      float: left;
-    }
-    .header li a {
-      padding: 20px 30px;
-    }
-    .header .menu {
-      clear: none;
-      float: right;
-      max-height: none;
-    }
-    .header .menu-icon {
-      display: none;
-    }
-  }
