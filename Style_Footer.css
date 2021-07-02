@@ -1,20 +1,115 @@
 /* Partie Bastien - Footer */
 
-/*Affichage responsive smartphone "Small" (<640px)*/
-@media screen and (max-width: 428px) {
+/*Affichage responsive smartphone "Small" (<428px)*/
+@media only screen and (max-width: 428px) {
 
     /* Body */
     p, a{
         color: #442187;
-        font-family: 'Righteous', cursive;
-        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
     }
 
     /* Footer */
     footer{
         background-color: #ffffff;
         display: flex;
-        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    /* Newsletter */
+    .footer_newslet{
+        width: 100%;
+    }
+
+    .footer_newslet_form p{
+        margin-bottom: auto;
+    }
+
+    #footer_newslet_form_email{
+        padding: 10px;
+    }
+
+    #footer_newslet_form_email::placeholder{
+        color: #7f7f7f;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    #footer_newslet_form_button{
+        background-color: #442187;
+        border: 2px solid #7f7f7f;
+        border-radius: 10px;
+        color: #ffffff;
+        padding: 8px 8px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    /* Contact */
+    .footer_contact {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .footer_contact a{
+        text-decoration: none;
+    }
+
+    /* Réseaux sociaux */
+    .footer_res{
+        width: 100%;
+    }
+
+    .footer_res a{
+        text-decoration: none;
+        font-size: 45px;
+        margin-left: 5px;
+    }
+
+    /* CGU, CGV, Mentions légales, Politique de confidentialité */
+    .footer_legis{
+        width: 100%;
+    }
+
+    .footer_legis ul{
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .footer_legis li{
+        margin-top: 5px;
+    }
+
+    .footer_legis a{
+        text-decoration: none;
+    }
+
+    /* Crédits/Copyright */
+    .footer_cc{
+        width: 100%;
+    }
+
+    #footer_cc_credits, #footer_cc_copyright {
+        font-size: 16px;
+    }
+}
+
+/* Affichage responsive tablette "Medium" (428px to 1280px) */
+@media only screen and (min-width: 428px) and (max-width: 1280px) {
+
+    /* Body */
+    p, a{
+        color: #442187;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    }
+
+    /* Footer */
+    footer{
+        background-color: #ffffff;
+        display: flex;
         flex-wrap: wrap;
     }
 
@@ -31,9 +126,15 @@
         padding: 10px;
     }
 
+    #footer_newslet_form_email::placeholder{
+        color: #7f7f7f;
+        font-style: italic;
+        font-weight: bold;
+    }
+
     #footer_newslet_form_button{
         background-color: #442187;
-        border: 2px solid #BABABA;
+        border: 2px solid #7f7f7f;
         border-radius: 10px;
         color: #ffffff;
         padding: 8px 8px;
@@ -44,7 +145,8 @@
 
     /* Contact */
     .footer_contact {
-        margin: 25px;
+        display: flex;
+        margin-top: 20px;
         width: 50%;
     }
 
@@ -54,18 +156,13 @@
 
     /* Réseaux sociaux */
     .footer_res{
-        width: ;
-        /* grid-area: res; */
-    }
-
-    .footer_res p{
-        font-size: 20px;
+        width: 100%;
     }
 
     .footer_res a{
         text-decoration: none;
-        font-size: 45px;
-        margin: 15px;
+        font-size: 35px;
+        margin-left: 10px;
     }
 
     /* CGU, CGV, Mentions légales, Politique de confidentialité */
@@ -75,34 +172,132 @@
 
     .footer_legis ul{
         list-style: none;
+        padding-left: 0;
+    }
+
+    .footer_legis li{
+        margin-top: 5px;
     }
 
     .footer_legis a{
         text-decoration: none;
-        margin: 10px;
     }
 
     /* Crédits/Copyright */
     .footer_cc{
-
+        width: 100%;
     }
 
-    #footer_cc_credits{
+    #footer_cc_credits, #footer_cc_copyright {
         font-size: 16px;
     }
-
-    #footer_cc_copyright{
-        font-size: 16px;
-    }
-
-}
-
-/* Affichage responsive tablette "Medium" (640px to 1280px) */
-@media screen and (min-width: 428px) and (max-width: 1280px) {
-
 }
 
 /*Affichage responsive PC/Desktop "Large" (1280px and larger)*/
-@media screen and (min-width: 1280px) {
+@media only screen and (min-width: 1280px) {
 
+    /* Body */
+    p, a{
+        color: #442187;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    }
+
+    /* Footer */
+    footer{
+        background-color: #ffffff;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* Newsletter */
+    .footer_newslet{
+        width: 60%;
+    }
+
+    .footer_newslet_form p{
+        margin-bottom: auto;
+    }
+
+    #footer_newslet_form_email{
+        padding: 10px;
+    }
+
+    #footer_newslet_form_email::placeholder{
+        color: #7f7f7f;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    #footer_newslet_form_button{
+        background-color: #442187;
+        border: 2px solid #7f7f7f;
+        border-radius: 10px;
+        color: #ffffff;
+        padding: 8px 8px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    /* Contact */
+    .footer_contact {
+        display: flex;
+        margin-top: 20px;
+        width: 40%;
+    }
+
+    .footer_contact a{
+        text-decoration: none;
+    }
+
+    /* Réseaux sociaux */
+    .footer_res{
+        margin-top: 25px;
+        width: 60%;
+    }
+
+    .footer_res a{
+        text-decoration: none;
+        font-size: 35px;
+        margin-left: 15px;
+    }
+
+    /* CGU, CGV, Mentions légales, Politique de confidentialité */
+    .footer_legis{
+        width: 40%;
+    }
+
+    .footer_legis ul{
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .footer_legis li{
+        margin-top: 15px;
+    }
+
+    .footer_legis a{
+        text-decoration: none;
+    }
+
+    /* Crédits/Copyright */
+    .footer_cc{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    #footer_cc_credits, #footer_cc_copyright {
+        display: inline;
+        font-size: 16px;
+    }
+
+    #footer_cc_credits{
+        margin-right: 19%;
+     }
+
+    #footer_cc_copyright{
+       margin-left: 14%;
+    }
 }
