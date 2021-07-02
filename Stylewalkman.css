@@ -1,5 +1,6 @@
 /*Affichage responsive smartphone "Small" (<428px)*/
 @media only screen and (max-width: 428px) {
+  
 
   body {
     margin: 0px;

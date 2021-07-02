@@ -1,0 +1,63 @@
+.imgicon{
+    width: 30px;
+    height: 30px;
+ }
+ .menu {
+    display: flex;
+    align-items: center;
+    height:60px;
+    background-color:white;
+    color: #442187;
+    font-family: "Bebas Neue", cursive;
+
+ }
+ .menu li{
+    list-style: none;
+    font-size: 20px;
+
+ }
+ .menu a{
+    padding: 20px;
+    text-decoration:none ;
+    color: #442187;
+
+ }
+ .imgicon{
+    visibility: hidden;
+ }
+
+ input {
+     border-radius: 16px;
+     height: 20px;
+     border: 1px solid #442187;
+padding: 6px; 
+padding-left: 20px;
+
+
+}
+
+.header_connexion p {
+    color: #442187;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    text-align: center;
+
+}
+
+#bonhomme {
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+
+ @media screen and (max-width: 768px) {
+    .imgicon{
+       visibility: visible;  
+    }
+    .menu{
+       visibility: hidden;
+    }
+    
+ }
