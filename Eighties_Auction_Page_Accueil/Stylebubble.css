@@ -1,0 +1,401 @@
+/*Affichage responsive smartphone "Small" (<428px)*/
+@media only screen and (max-width: 428px) {
+
+  body {
+    margin: 0px;
+  }
+  
+  .slider {
+    width: 100%;
+  }
+  
+  .slider_background {
+    background-image: url(desktop/desktop_machinebubblegum.jpg);
+    height: 900px;
+    background-size: cover;
+    text-align: center;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  
+  /* FLECHES */
+  
+  .slider_arrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #442187;
+    font-size: 30px;
+    margin-top: 200px;
+
+  }
+  .slider_arrow_left {
+    margin-right: 150px;
+    justify-content: baseline;
+  }
+  
+  .slider_arrow_right {
+    margin-left: 150px;
+    justify-content: center;
+  }
+  
+  /*BLOC TIMER */
+  .slider_timer_container {
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+  }
+  
+  .slider_timer {
+    display: flex;
+    flex-direction: column;
+    font-family: "Bebas Neue", cursive;
+    color: #df2688;
+    font-size: 16px;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .slider_timer_chiffres {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    padding: 2px;
+    color: white;
+    justify-content: center;
+    margin: 3px;
+  }
+  
+  .slider_timer_chiffres p {
+    font-size: 14px;
+    margin-top: -5px;
+  }
+  
+  .slider_timer_7 {
+    background-color: #df2688;
+    border-radius: 6px;
+    margin-right: 3px;
+    padding: 10px;
+  }
+  
+  .slider_timer_2 {
+    background-color: #df2688;
+    border-radius: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 10px;
+  }
+  
+  .slider_timer_6 {
+    background-color: #df2688;
+    border-radius: 6px;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding: 10px;
+  }
+  
+  .slider_timer_bouton {
+    background-color: #442187;
+    display: flex;
+    flex-direction: column;
+    font-family: "Bebas Neue", cursive;
+    font-size: 22px;
+    margin: 2px;
+    border-radius: 6px;
+    padding: 15px;
+    color: white;
+    width: 115px;
+    margin-left: 5px;
+  }
+  /*FIN BLOC TIMER */
+  
+  /*BLOC DESCRIPTION PRODUIT */
+  .slider_bloc_produit {
+    margin-top: 220px;
+    text-align: center;
+    color: #442187;
+  }
+  .slider_produit {
+    font-family: "Bebas Neue", cursive;
+    font-size: 50px;
+  }
+  .slider_produit_description {
+    font-family: "Righteous", cursive;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+
+  }
+  /*FIN BLOC DESCRIPTION PRODUIT */
+}
+
+/*Affichage responsive tablette "Medium" (>428px to <1280px)*/
+@media only screen and (min-width: 428px) and (max-width: 1280px) {
+  
+  body {
+    margin: 0px;
+  }
+  
+  .slider {
+    width: 100%;
+  }
+  
+  .slider_background {
+    background-image: url(desktop/desktop_machinebubblegum.jpg);
+    height: 700px;
+    background-size: cover;
+    text-align: center;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  
+  /* FLECHES */
+  
+  .slider_arrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #442187;
+    font-size: 30px;
+  }
+  .slider_arrow_left {
+    margin-top: 150px;
+    margin-right: 450px;
+    justify-content: baseline;
+  }
+  
+  .slider_arrow_right {
+    margin-top: 150px;
+    margin-left: 450px;
+    justify-content: center;
+  }
+  
+  /*BLOC TIMER */
+  .slider_timer_container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+  }
+  
+  .slider_timer {
+    display: flex;
+    flex-direction: column;
+    font-family: "Bebas Neue", cursive;
+    color: #df2688;
+    font-size: 18px;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 15px;
+  }
+  
+  .slider_timer_chiffres {
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    padding: 2px;
+    color: white;
+    justify-content: center;
+    margin: 3px;
+  }
+  
+  .slider_timer_chiffres p {
+    font-size: 14px;
+    margin-top: -5px;
+  }
+  
+  .slider_timer_7 {
+    background-color: #df2688;
+    border-radius: 6px;
+    margin-right: 3px;
+    padding: 10px;
+  }
+  
+  .slider_timer_2 {
+    background-color: #df2688;
+    border-radius: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 10px;
+  }
+  
+  .slider_timer_6 {
+    background-color: #df2688;
+    border-radius: 6px;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding: 10px;
+  }
+  
+  .slider_timer_bouton {
+    background-color: #442187;
+    display: flex;
+    flex-direction: column;
+    font-family: "Bebas Neue", cursive;
+    font-size: 24px;
+    margin: 2px;
+    border-radius: 6px;
+    padding: 15px;
+    color: white;
+    width: 115px;
+    margin-left: 5px;
+  }
+  /*FIN BLOC TIMER */
+  
+  /*BLOC DESCRIPTION PRODUIT */
+  .slider_bloc_produit {
+    text-align: left;
+    margin-left: 120px;
+    color: #442187;
+    margin-top: -90px;
+    width: 220px;
+
+  }
+  .slider_produit {
+    font-family: "Bebas Neue", cursive;
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .slider_produit_description {
+    font-family: "Righteous", cursive;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /*FIN BLOC DESCRIPTION PRODUIT */
+
+}
+
+/*Affichage responsive desktop "Large" (>1280px)*/
+@media only screen and (min-width: 1280px) {
+
+  body {
+    margin: 0px;
+  }
+  
+  .slider {
+    width: 100%;
+  }
+  
+  .slider_background {
+    background-image: url(desktop/desktop_machinebubblegum.jpg);
+    height: 700px;
+    background-size: cover;
+    text-align: center;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  
+  /* FLECHES */
+  
+  .slider_arrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #442187;
+    font-size: 40px;
+  }
+  .slider_arrow_left {
+    margin-top: 180px;
+    margin-right: 580px;
+    justify-content: baseline;
+  }
+  
+  .slider_arrow_right {
+    margin-top: 180px;
+    margin-left: 580px;
+    justify-content: center;
+  }
+  
+  /*BLOC TIMER */
+  .slider_timer_container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+  }
+  
+  .slider_timer {
+    display: flex;
+    flex-direction: column;
+    font-family: "Bebas Neue", cursive;
+    color: #df2688;
+    font-size: 18px;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .slider_timer_chiffres {
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    padding: 2px;
+    color: white;
+    justify-content: center;
+    margin: 3px;
+  }
+  
+  .slider_timer_chiffres p {
+    font-size: 14px;
+    margin-top: -5px;
+  }
+  
+  .slider_timer_7 {
+    background-color: #df2688;
+    border-radius: 6px;
+    margin-right: 3px;
+    padding: 10px;
+  }
+  
+  .slider_timer_2 {
+    background-color: #df2688;
+    border-radius: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 10px;
+  }
+  
+  .slider_timer_6 {
+    background-color: #df2688;
+    border-radius: 6px;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding: 10px;
+  }
+  
+  .slider_timer_bouton {
+    background-color: #442187;
+    display: flex;
+    flex-direction: column;
+    font-family: "Bebas Neue", cursive;
+    font-size: 24px;
+    margin: 2px;
+    border-radius: 6px;
+    padding: 15px;
+    color: white;
+    width: 115px;
+    margin-left: 5px;
+  }
+  /*FIN BLOC TIMER */
+  
+  /*BLOC DESCRIPTION PRODUIT */
+  .slider_bloc_produit {
+    text-align: left;
+    margin-left: 170px;
+    color: #442187;
+    margin-top: -100px;
+    width: 220px;
+  }
+  .slider_produit {
+    font-family: "Bebas Neue", cursive;
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .slider_produit_description {
+    font-family: "Righteous", cursive;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /*FIN BLOC DESCRIPTION PRODUIT */
+}
+
+

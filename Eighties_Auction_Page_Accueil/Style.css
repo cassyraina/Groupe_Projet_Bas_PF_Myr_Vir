@@ -1,0 +1,1376 @@
+/***** FEUILLE CSS 80'S AUCTION *****/
+/*****    RESPONSIVE DESIGN     *****/
+
+/**** Affichage responsive smartphone "Small" (<428px) *****/
+@media only screen and (max-width: 428px) {
+  /*** STYLE GLOBAL PAGE ACCUEIL ***/
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: "Bebas Neue";
+    background-color: #f4f4f4;
+    font-style: bold;
+    font-size: 22px;
+  }
+
+  a {
+    color: #000;
+  }
+
+  /*** HEADER ***/
+
+  header {
+    background-color: #f4f4f4;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+
+  /*** NAVBAR ***/
+
+  nav {
+    display: flex;
+    background-color: #f4f4f4;
+    height: 65px;
+    padding-top: 25px;
+    width: 100%;
+  }
+
+  /*** LOGO SITE ***/
+
+  .header_logo {
+    float: left;
+    position: absolute;
+    text-decoration: none;
+  }
+
+  #header_logo_img {
+    height: 80px;
+    margin: 0px 20px 5px;
+    width: 80px;
+  }
+
+  /*** MENU BURGER ***/
+
+  #header_nav_menuburger {
+    background-color: #f4f4f4;
+    color: black;
+    font-size: 30px;
+    list-style: none;
+    margin-left: 120px;
+  }
+
+  /*** MENU ***/
+
+  .header_nav_ul {
+    background-color: #f4f4f4;
+    display: none;
+    list-style: none;
+    margin-top: 60px;
+    width: 100%;
+    z-index: 999;
+  }
+
+  .header_nav_menu {
+    margin-left: -140px;
+    width: 100%;
+  }
+
+  .header_nav_menu li {
+    margin-left: px;
+    padding: 10px 10px;
+  }
+
+  .header_nav_menu li a {
+    color: #442187;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .header_nav_menu li a:hover {
+    background-color: #79f8f8;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 2px;
+    transition: 0.5s;
+  }
+
+  /*** BARRE DE RECHERCHE ***/
+
+  .header_nav_barecherche {
+    display: none;
+    margin-left: 5px;
+  }
+
+  .header_nav_barecherche span {
+    color: #442187;
+  }
+
+  .header_nav_barecherche span:hover {
+    color: #442187;
+    background-color: #79f8f8;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 2px;
+    transition: 0.5s;
+  }
+
+  #header_nav_barecherche_saisie {
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 20px;
+  }
+
+  #header_nav_barecherche_saisie:hover {
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 20px;
+  }
+
+  #header_nav_barecherche_saisie::placeholder {
+    color: #afafaf;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  /*** ONGLET CONNEXION MENU ***/
+
+  #header_nav_onglet_connexion {
+    display: none;
+  }
+
+  /*** ICÔNE SMARTPHONE BARRE DE RECHERCHE ***/
+
+  .header_nav_icones_smartphone {
+    display: flex;
+    list-style: none;
+  }
+
+  .header_nav_icones_menu {
+    display: inline-flex;
+    width: 100%;
+  }
+
+  .header_nav_icones_menu li {
+    margin-left: 50px;
+    padding: 5px 10px;
+  }
+
+  #header_nav_icone_menu_loupe {
+    font-size: 25px;
+  }
+
+  #header_nav_icone_menu_connexion {
+    font-size: 25px;
+  }
+
+  .slider {
+    width: 100%;
+  }
+
+  .slider_background {
+    background-image: url(Images/walkman.jpg);
+    height: 900px;
+    background-size: cover;
+    text-align: center;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  /* FLECHES */
+
+  .slider_arrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #442187;
+    font-size: 30px;
+    margin-top: 200px;
+  }
+  .slider_arrow_left {
+    margin-right: 150px;
+    justify-content: baseline;
+  }
+
+  .slider_arrow_right {
+    margin-left: 150px;
+    justify-content: center;
+  }
+
+  /*BLOC TIMER */
+  .slider_timer_container {
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+  }
+
+  .slider_timer {
+    display: flex;
+    flex-direction: column;
+    font-family: "Bebas Neue", cursive;
+    color: #df2688;
+    font-size: 16px;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .slider_timer_chiffres {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    padding: 2px;
+    color: white;
+    justify-content: center;
+    margin: 3px;
+  }
+
+  .slider_timer_chiffres p {
+    font-size: 14px;
+    margin-top: -5px;
+  }
+
+  .slider_timer_7 {
+    background-color: #df2688;
+    border-radius: 6px;
+    margin-right: 3px;
+    padding: 10px;
+  }
+
+  .slider_timer_2 {
+    background-color: #df2688;
+    border-radius: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 10px;
+  }
+
+  .slider_timer_6 {
+    background-color: #df2688;
+    border-radius: 6px;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding: 10px;
+  }
+
+  .slider_timer_bouton {
+    background-color: #442187;
+    display: flex;
+    flex-direction: column;
+    font-family: "Bebas Neue", cursive;
+    font-size: 22px;
+    margin: 2px;
+    border-radius: 6px;
+    padding: 15px;
+    color: white;
+    width: 115px;
+    margin-left: 5px;
+  }
+  /*FIN BLOC TIMER */
+
+  /*BLOC DESCRIPTION PRODUIT */
+  .slider_bloc_produit {
+    margin-top: 220px;
+    text-align: center;
+    color: #442187;
+  }
+  .slider_produit {
+    font-family: "Bebas Neue", cursive;
+    font-size: 50px;
+  }
+  .slider_produit_description {
+    font-family: "Righteous", cursive;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  /*FIN BLOC DESCRIPTION PRODUIT */
+
+  /*** FIN HEADER ***/
+
+  /*** MAIN ***/
+
+  .articles h2 {
+    font-size: 20px;
+    color: #ffffff;
+    padding-top: 150px;
+    text-align: center;
+    border-radius: 5px;
+    align-items: center;
+  }
+
+  .articles h3 {
+    font-size: 20px;
+    color: #df2688;
+    padding-top: 150px;
+    text-align: center;
+    border-radius: 5px;
+    align-items: center;
+  }
+
+  .bandeauinfopaiement {
+    background-color: #69c2da;
+    width: 100%;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 40% 30% 26%;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: right;
+  }
+
+  .truck {
+    margin-right: 150px;
+    margin-top: 170px;
+    font-size: 50px;
+    color: #df2688;
+  }
+
+  .time {
+    margin-right: 15px;
+    margin-top: 170px;
+    font-size: 50px;
+    color: #df2688;
+  }
+
+  .paiementsécurisé {
+    margin-top: 170px;
+    font-size: 50px;
+    color: #df2688;
+  }
+  .truck h2 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: -130px;
+  }
+
+  .time h2 {
+    font-size: 20px;
+    margin-top: -130px;
+    margin-right: 45px;
+  }
+
+  .paiementsécurisé h2 {
+    font-size: 20px;
+    margin-top: -130px;
+    margin-right: 100px;
+  }
+
+  /*** FIN MAIN ***/
+
+  /*** FOOTER ***/
+
+  /* Footer */
+  footer {
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  footer p,
+  a {
+    color: #442187;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+
+  /* Newsletter */
+  .footer_newslet {
+    width: 100%;
+  }
+
+  .footer_newslet_form p {
+    margin-bottom: auto;
+  }
+
+  #footer_newslet_form_email {
+    padding: 10px;
+  }
+
+  #footer_newslet_form_email::placeholder {
+    color: #7f7f7f;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  #footer_newslet_form_button {
+    background-color: #442187;
+    border: 2px solid #7f7f7f;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  /* Contact */
+  .footer_contact {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .footer_contact a {
+    text-decoration: none;
+  }
+
+  /* Réseaux sociaux */
+  .footer_res {
+    width: 100%;
+  }
+
+  .footer_res a {
+    text-decoration: none;
+    font-size: 45px;
+    margin-left: 5px;
+  }
+
+  /* CGU, CGV, Mentions légales, Politique de confidentialité */
+  .footer_legis {
+    width: 100%;
+  }
+
+  .footer_legis ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .footer_legis li {
+    margin-top: 5px;
+  }
+
+  .footer_legis a {
+    text-decoration: none;
+  }
+
+  /* Crédits/Copyright */
+  .footer_cc {
+    width: 100%;
+  }
+
+  #footer_cc_credits,
+  #footer_cc_copyright {
+    font-size: 16px;
+  }
+
+  /*** FIN FOOTER ***/
+}
+
+/**** Affichage responsive tablette "Medium" (428px to 1280px) ****/
+@media only screen and (min-width: 428px) and (max-width: 1280px) {
+  /*** STYLE GLOBAL PAGE ACCUEIL ***/
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: "Bebas Neue";
+    background-color: #f4f4f4;
+    font-style: bold;
+    font-size: 22px;
+  }
+
+  a {
+    color: #000;
+  }
+
+  /*** HEADER ***/
+
+  header {
+    background-color: #f4f4f4;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+
+  /*** NAVBAR ***/
+
+  nav {
+    display: flex;
+    background-color: #f4f4f4;
+    height: 65px;
+    padding-top: 25px;
+    width: 100%;
+  }
+
+  /*** LOGO SITE ***/
+
+  .header_logo {
+    float: left;
+    position: absolute;
+    text-decoration: none;
+  }
+
+  #header_logo_img {
+    height: 80px;
+    margin: 0px 20px 5px;
+    width: 80px;
+  }
+
+  /*** MENU BURGER ***/
+
+  #header_nav_menuburger {
+    background-color: #f4f4f4;
+    color: black;
+    font-size: 30px;
+    list-style: none;
+    margin-left: 120px;
+  }
+
+  /*** MENU ***/
+
+  .header_nav_ul {
+    background-color: #f4f4f4;
+    display: none;
+    list-style: none;
+    margin-top: 60px;
+    width: 100%;
+    z-index: 999;
+  }
+
+  .header_nav_menu {
+    margin-left: -140px;
+    width: 100%;
+  }
+
+  .header_nav_menu li {
+    margin-left: px;
+    padding: 10px 10px;
+  }
+
+  .header_nav_menu li a {
+    color: #442187;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .header_nav_menu li a:hover {
+    background-color: #79f8f8;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 2px;
+    transition: 0.5s;
+  }
+
+  /*** BARRE DE RECHERCHE ***/
+
+  .header_nav_barecherche {
+    display: none;
+    margin-left: 5px;
+  }
+
+  .header_nav_barecherche span {
+    color: #442187;
+  }
+
+  .header_nav_barecherche span:hover {
+    color: #442187;
+    background-color: #79f8f8;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 2px;
+    transition: 0.5s;
+  }
+
+  #header_nav_barecherche_saisie {
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 20px;
+  }
+
+  #header_nav_barecherche_saisie:hover {
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 20px;
+  }
+
+  #header_nav_barecherche_saisie::placeholder {
+    color: #afafaf;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  /*** ONGLET CONNEXION MENU ***/
+
+  #header_nav_onglet_connexion {
+    display: none;
+  }
+
+  /*** ICÔNE SMARTPHONE BARRE DE RECHERCHE ***/
+
+  .header_nav_icones_smartphone {
+    display: flex;
+    list-style: none;
+  }
+
+  .header_nav_icones_menu {
+    display: inline-flex;
+    width: 100%;
+  }
+
+  .header_nav_icones_menu li {
+    margin-left: 50px;
+    padding: 5px 10px;
+  }
+
+  #header_nav_icone_menu_loupe {
+    font-size: 25px;
+  }
+
+  #header_nav_icone_menu_connexion {
+    font-size: 25px;
+  }
+
+  .slider {
+    width: 100%;
+  }
+
+  .slider_background {
+    background-image: url(Images/walkman.jpg);
+    height: 700px;
+    background-size: cover;
+    text-align: center;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  /* FLECHES */
+
+  .slider_arrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #442187;
+    font-size: 30px;
+  }
+  .slider_arrow_left {
+    margin-top: 150px;
+    margin-right: 450px;
+    justify-content: baseline;
+  }
+
+  .slider_arrow_right {
+    margin-top: 150px;
+    margin-left: 450px;
+    justify-content: center;
+  }
+
+  /*BLOC TIMER */
+  .slider_timer_container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+  }
+
+  .slider_timer {
+    display: flex;
+    flex-direction: column;
+    font-family: "Bebas Neue", cursive;
+    color: #df2688;
+    font-size: 18px;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 15px;
+  }
+
+  .slider_timer_chiffres {
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    padding: 2px;
+    color: white;
+    justify-content: center;
+    margin: 3px;
+  }
+
+  .slider_timer_chiffres p {
+    font-size: 14px;
+    margin-top: -5px;
+  }
+
+  .slider_timer_7 {
+    background-color: #df2688;
+    border-radius: 6px;
+    margin-right: 3px;
+    padding: 10px;
+  }
+
+  .slider_timer_2 {
+    background-color: #df2688;
+    border-radius: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 10px;
+  }
+
+  .slider_timer_6 {
+    background-color: #df2688;
+    border-radius: 6px;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding: 10px;
+  }
+
+  .slider_timer_bouton {
+    background-color: #442187;
+    display: flex;
+    flex-direction: column;
+    font-family: "Bebas Neue", cursive;
+    font-size: 24px;
+    margin: 2px;
+    border-radius: 6px;
+    padding: 15px;
+    color: white;
+    width: 115px;
+    margin-left: 5px;
+  }
+  /*FIN BLOC TIMER */
+
+  /*BLOC DESCRIPTION PRODUIT */
+  .slider_bloc_produit {
+    text-align: left;
+    margin-left: 120px;
+    color: #442187;
+    margin-top: -90px;
+    width: 220px;
+  }
+  .slider_produit {
+    font-family: "Bebas Neue", cursive;
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .slider_produit_description {
+    font-family: "Righteous", cursive;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /*FIN BLOC DESCRIPTION PRODUIT */
+
+  /*** FIN HEADER ***/
+
+  /*** MAIN ***/
+
+  .articles h2 {
+    font-size: 20px;
+    color: #ffffff;
+    padding-top: 150px;
+    text-align: center;
+    border-radius: 5px;
+    align-items: center;
+  }
+
+  .articles h3 {
+    font-size: 20px;
+    color: #df2688;
+    padding-top: 150px;
+    text-align: center;
+    border-radius: 5px;
+    align-items: center;
+  }
+
+  .bandeauinfopaiement {
+    background-color: #69c2da;
+    width: 100%;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 37% 30% 20%;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: right;
+  }
+
+  .truck {
+    margin-right: 100px;
+    margin-top: 170px;
+    font-size: 70px;
+    color: #df2688;
+  }
+
+  .time {
+    margin-right: 200px;
+    margin-top: 170px;
+    font-size: 70px;
+    color: #df2688;
+  }
+
+  .paiementsécurisé {
+    margin-top: 170px;
+    font-size: 70px;
+    color: #df2688;
+  }
+  .truck h2 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: -130px;
+    margin-right: 300px;
+  }
+
+  .time h2 {
+    font-size: 20px;
+    margin-top: -130px;
+    margin-right: 20px;
+  }
+
+  .paiementsécurisé h2 {
+    font-size: 20px;
+    margin-top: -130px;
+    margin-right: 250px;
+  }
+
+  /*** FIN MAIN ***/
+
+  /*** FOOTER ***/
+
+  /* Footer */
+  footer {
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  footer p,
+  a {
+    color: #442187;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+  }
+
+  /* Newsletter */
+  .footer_newslet {
+    width: 50%;
+  }
+
+  .footer_newslet_form p {
+    margin-bottom: auto;
+  }
+
+  #footer_newslet_form_email {
+    padding: 10px;
+  }
+
+  #footer_newslet_form_email::placeholder {
+    color: #7f7f7f;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  #footer_newslet_form_button {
+    background-color: #442187;
+    border: 2px solid #7f7f7f;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  /* Contact */
+  .footer_contact {
+    display: flex;
+    margin-top: 20px;
+    width: 50%;
+  }
+
+  .footer_contact a {
+    text-decoration: none;
+  }
+
+  /* Réseaux sociaux */
+  .footer_res {
+    width: 100%;
+  }
+
+  .footer_res a {
+    text-decoration: none;
+    font-size: 35px;
+    margin-left: 10px;
+  }
+
+  /* CGU, CGV, Mentions légales, Politique de confidentialité */
+  .footer_legis {
+    width: 100%;
+  }
+
+  .footer_legis ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .footer_legis li {
+    margin-top: 5px;
+  }
+
+  .footer_legis a {
+    text-decoration: none;
+  }
+
+  /* Crédits/Copyright */
+  .footer_cc {
+    width: 100%;
+  }
+
+  #footer_cc_credits,
+  #footer_cc_copyright {
+    font-size: 16px;
+  }
+
+  /*** FIN FOOTER ***/
+}
+
+/**** Affichage responsive tablette "Large" (1280px and larger)****/
+@media only screen and (min-width: 1280px) {
+  /*** STYLE GLOBAL PAGE ACCUEIL ***/
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: "Bebas Neue";
+    background-color: #f4f4f4;
+    font-style: bold;
+    font-size: 20px;
+  }
+
+  a {
+    color: #000;
+  }
+
+  /*** HEADER ***/
+
+  header {
+    background-color: #f4f4f4;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+
+  /*** NAVBAR ***/
+
+  nav {
+    display: flex;
+    background-color: #f4f4f4;
+    height: 65px;
+    padding-top: 25px;
+    width: 100%;
+  }
+
+  /*** LOGO SITE ***/
+
+  .header_logo {
+    float: left;
+    position: absolute;
+    text-decoration: none;
+  }
+
+  #header_logo_img {
+    height: 80px;
+    margin: 0px 20px 5px;
+    width: 80px;
+  }
+
+  /*** MENU BURGER ***/
+
+  #header_nav_menuburger {
+    display: none;
+  }
+
+  /*** MENU ***/
+
+  .header_nav_ul {
+    align-items: center;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin-left: 100px;
+  }
+
+  .header_nav_menu {
+    display: inline-flex;
+    width: 100%;
+  }
+
+  .header_nav_menu li {
+    margin-left: 35px;
+    padding: 10px 10px;
+  }
+
+  .header_nav_menu li a {
+    color: #442187;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .header_nav_menu li a:hover {
+    background-color: #79f8f8;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 2px;
+    transition: 0.5s;
+  }
+
+  /*** BARRE DE RECHERCHE ***/
+
+  .header_nav_barecherche {
+    margin-left: 5px;
+  }
+
+  .header_nav_barecherche span {
+    color: #442187;
+  }
+
+  .header_nav_barecherche span:hover {
+    color: #442187;
+    background-color: #79f8f8;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 2px;
+    transition: 0.5s;
+  }
+
+  #header_nav_barecherche_saisie {
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 20px;
+  }
+
+  #header_nav_barecherche_saisie:hover {
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 20px;
+  }
+
+  #header_nav_barecherche_saisie::placeholder {
+    color: #afafaf;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  /*** ICÔNE SMARTPHONE BARRE DE RECHERCHE ***/
+
+  .header_nav_icones_smartphone {
+    display: none;
+  }
+
+  .slider {
+    width: 100%;
+  }
+
+  .slider_background {
+    background-image: url(Images/desktop_walkman.jpg);
+    height: 700px;
+    background-size: cover;
+    text-align: center;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  /* FLECHES */
+
+  .slider_arrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #442187;
+    font-size: 40px;
+  }
+  .slider_arrow_left {
+    margin-top: 180px;
+    margin-right: 580px;
+    justify-content: baseline;
+  }
+
+  .slider_arrow_right {
+    margin-top: 180px;
+    margin-left: 580px;
+    justify-content: center;
+  }
+
+  /*BLOC TIMER */
+  .slider_timer_container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+  }
+
+  .slider_timer {
+    display: flex;
+    flex-direction: column;
+    font-family: "Bebas Neue", cursive;
+    color: #df2688;
+    font-size: 18px;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .slider_timer_chiffres {
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    padding: 2px;
+    color: white;
+    justify-content: center;
+    margin: 3px;
+  }
+
+  .slider_timer_chiffres p {
+    font-size: 14px;
+    margin-top: -5px;
+  }
+
+  .slider_timer_7 {
+    background-color: #df2688;
+    border-radius: 6px;
+    margin-right: 3px;
+    padding: 10px;
+  }
+
+  .slider_timer_2 {
+    background-color: #df2688;
+    border-radius: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 10px;
+  }
+
+  .slider_timer_6 {
+    background-color: #df2688;
+    border-radius: 6px;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding: 10px;
+  }
+
+  .slider_timer_bouton {
+    background-color: #442187;
+    display: flex;
+    flex-direction: column;
+    font-family: "Bebas Neue", cursive;
+    font-size: 24px;
+    margin: 2px;
+    border-radius: 6px;
+    padding: 15px;
+    color: white;
+    width: 115px;
+    margin-left: 5px;
+  }
+  /*FIN BLOC TIMER */
+
+  /*BLOC DESCRIPTION PRODUIT */
+  .slider_bloc_produit {
+    text-align: left;
+    margin-left: 170px;
+    color: #442187;
+    margin-top: -100px;
+    width: 220px;
+  }
+  .slider_produit {
+    font-family: "Bebas Neue", cursive;
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .slider_produit_description {
+    font-family: "Righteous", cursive;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /*FIN BLOC DESCRIPTION PRODUIT */
+
+  /*** FIN HEADER ***/
+
+  /*** MAIN ***/
+
+  .articles h2 {
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 150px;
+    text-align: center;
+    border-radius: 5px;
+    align-items: center;
+  }
+
+  .articles h3 {
+    font-size: 30px;
+    color: #df2688;
+    padding-top: 150px;
+    text-align: center;
+    border-radius: 5px;
+    align-items: center;
+  }
+
+  .bandeauinfopaiement {
+    background-color: #69c2da;
+    width: 100%;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 30% 30% 26%;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: right;
+  }
+
+  .truck {
+    margin-right: 100px;
+    margin-top: 170px;
+    font-size: 70px;
+    color: #df2688;
+  }
+
+  .time {
+    margin-right: 200px;
+    margin-top: 170px;
+    font-size: 70px;
+    color: #df2688;
+  }
+
+  .paiementsécurisé {
+    margin-top: 170px;
+    font-size: 70px;
+    color: #df2688;
+  }
+
+  .truck h2 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-top: -130px;
+    margin-right: 300px;
+  }
+
+  .time h2 {
+    font-size: 25px;
+    margin-top: -130px;
+    margin-right: 97px;
+  }
+
+  .paiementsécurisé h2 {
+    font-size: 25px;
+    margin-top: -130px;
+    margin-right: 700px;
+  }
+
+  /*** FIN MAIN ***/
+
+  /*** FOOTER ***/
+
+  /* Footer */
+  footer {
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  footer p,
+  a {
+    color: #442187;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+  }
+
+  /* Newsletter */
+  .footer_newslet {
+    width: 60%;
+  }
+
+  .footer_newslet_form p {
+    margin-bottom: auto;
+  }
+
+  #footer_newslet_form_email {
+    padding: 10px;
+  }
+
+  #footer_newslet_form_email::placeholder {
+    color: #7f7f7f;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  #footer_newslet_form_button {
+    background-color: #442187;
+    border: 2px solid #7f7f7f;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  /* Contact */
+  .footer_contact {
+    display: flex;
+    margin-top: 20px;
+    width: 40%;
+  }
+
+  .footer_contact a {
+    text-decoration: none;
+  }
+
+  /* Réseaux sociaux */
+  .footer_res {
+    margin-top: 25px;
+    width: 60%;
+  }
+
+  .footer_res a {
+    text-decoration: none;
+    font-size: 35px;
+    margin-left: 15px;
+  }
+
+  /* CGU, CGV, Mentions légales, Politique de confidentialité */
+  .footer_legis {
+    width: 40%;
+  }
+
+  .footer_legis ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .footer_legis li {
+    margin-top: 15px;
+  }
+
+  .footer_legis a {
+    text-decoration: none;
+  }
+
+  /* Crédits/Copyright */
+  .footer_cc {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  #footer_cc_credits,
+  #footer_cc_copyright {
+    display: inline;
+    font-size: 16px;
+  }
+
+  #footer_cc_credits {
+    margin-right: 19%;
+  }
+
+  #footer_cc_copyright {
+    margin-left: 14%;
+  }
+
+  /*** FIN FOOTER ***/
+}
