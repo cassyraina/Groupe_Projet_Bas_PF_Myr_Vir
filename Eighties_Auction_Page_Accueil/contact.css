@@ -1,0 +1,16 @@
+.container{
+   display: flexbox;
+   
+}
+#nom{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#prenom{
+    margin-bottom: 20px;
+    margin-top: 20px;  
+}
+#mail{
+    margin-bottom: 20px;
+    margin-top: 20px;  
+}
