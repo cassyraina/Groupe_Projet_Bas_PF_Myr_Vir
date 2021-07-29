@@ -1,16 +1,88 @@
+
+
+
 .container{
-   display: flexbox;
+   display: flex;
+   flex-wrap: nowrap;
+   background-color: #79f8f8b4;
+   width: 100%;
    
 }
-#nom{
+
+.nous{
+color: #CB3677;
+}
+.acces{
+    font-size: large;
+    font-style: italic;
+    color: #442187;
+    margin-bottom: 10px;
+   
+}
+.titre{
+    margin-top: 30px;
+    
+}
+
+
+
+#nom {
     margin-bottom: 20px;
     margin-top: 20px;
+    width: 50%;
+    border-color:#CB3677 ;
 }
+
 #prenom{
     margin-bottom: 20px;
     margin-top: 20px;  
+    width: 50%;
 }
 #mail{
     margin-bottom: 20px;
-    margin-top: 20px;  
+    margin-top: 20px; 
+    width: 50%; 
+}
+
+
+#tele{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+#message{
+    margin-bottom: 5px;
+    margin-top: 20px;
+    
+    
+}
+
+#tele{
+
+    margin-bottom: 5px;
+    margin-top: 20px;
+    width: 50%
+
+
+}
+#droit{
+    width: 50%;
+flex-direction: row;
+margin-right: 50px;
+margin-top: 150px;
+align-content: flex-start;
+}
+
+.left{
+    width: 50%;
+    justify-content: flex-start;
+    
+}
+
+
+#image{
+    width: 300px;
+    margin-bottom: 10px;
+    
 }
