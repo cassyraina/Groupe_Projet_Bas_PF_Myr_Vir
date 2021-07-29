@@ -69,7 +69,7 @@ color: #CB3677;
 #droit{
     width: 50%;
 flex-direction: row;
-margin-right: 50px;
+margin-right: 80px;
 margin-top: 150px;
 align-content: flex-start;
 }
