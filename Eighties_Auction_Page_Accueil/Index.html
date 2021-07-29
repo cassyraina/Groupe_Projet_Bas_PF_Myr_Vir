@@ -1,86 +1,84 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Eighties Auction - Bienvenue sur l'enchère vintage</title>
-    <link rel="shortcut icon" type="image/png" href="Images/80sauction_favicon.png" />
-    <link rel="stylesheet" href="StyleCommun.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&display=swap"
-      rel="stylesheet"
-    />
-    <meta
-      name="description"
-      content="Amateurs des années 80, ses goodies, objets collectors, neufs ou restaurés ? Venez trouver votre bonheur sur 80's Auction en participant à nos enchères mensuelles, avec de nombreux lots et articles à la clé. 
-    C'est parti mon kiki !"
-    />
-  </head>
-  <!-- FIN HEAD -->
 
-  <!-- DÉBUT BODY -->
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eighties Auction - Bienvenue sur l'enchère vintage</title>
+  <link rel="shortcut icon" type="image/png" href="Images/80sauction_favicon.png" />
+  <link rel="stylesheet" href="Style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&display=swap" rel="stylesheet" />
+  <meta name="description" content="Amateurs des années 80, ses goodies, objets collectors, neufs ou restaurés ? Venez trouver votre bonheur sur 80's Auction en participant à nos enchères mensuelles, avec de nombreux lots et articles à la clé. 
+    C'est parti mon kiki !" />
+</head>
+<!-- FIN HEAD -->
 
-    <!-- PARTIE HEADER : LOGO, NAVBAR, SLIDER, TIMER DATE ENCHÈRES, ACCROCHES PRODUITS -->
-    <header>
-      <div class="header_logo">
-        <a href="#"><img id="header_logo_img" src="Images/logo.png" alt="logo du site 80's Auction"></a>
-      </div>
+<!-- DÉBUT BODY -->
 
-        <nav>
-          <span id="header_nav_menuburger"><a href="#"><i class="fas fa-bars"></i></a></span>
-          <ul class="header_nav_icones_smartphone">
-            <div class="header_nav_icones_menu">
-              <li id="header_nav_icone_menu_loupe"><i class="fas fa-search"></i></li>
-              <li id="header_nav_icone_menu_connexion"><a href=""><i class="far fa-user"></i></a></li>
+<body>
+
+  <!-- PARTIE HEADER : LOGO, NAVBAR, SLIDER, TIMER DATE ENCHÈRES, ACCROCHES PRODUITS -->
+  <header>
+    <div class="header_logo">
+      <a href="#"><img id="header_logo_img" src="Images/logo.png" alt="logo du site 80's Auction"></a>
+    </div>
+
+    <nav>
+      <span id="header_nav_menuburger"><a href="#"><i class="fas fa-bars"></i></a></span>
+      <ul class="header_nav_icones_smartphone">
+        <div class="header_nav_icones_menu">
+          <li id="header_nav_icone_menu_loupe"><i class="fas fa-search"></i></li>
+          <li id="header_nav_icone_menu_connexion"><a href=""><i class="far fa-user"></i></a></li>
+        </div>
+      </ul>
+      <ul class="header_nav_ul">
+        <div class="header_nav_menu">
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">Catalogue</a></li>
+          <li><a href="#">Restauration</a></li>
+          <li><a href="#">Expertise</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">À Propos</a></li>
+          <li class="header_nav_barecherche">
+            <input id="header_nav_barecherche_saisie" type="text" placeholder="Tapez votre recherche" name="">
+            <span class="fas fa-search"></span>
+          </li>
+          <li id="header_nav_onglet_connexion"><a href="#">
+              <p><i class="far fa-user"></i> Connexion</p>
+            </a></li>
+        </div>
+      </ul>
+    </nav>
+
+    <!-- SLIDER -->
+    <div class="slider">
+      <!-- SLIDER BACKGROUND-->
+      <div class="slider_background">
+        <div class="slider_description">
+          <!-- BLOC TIMER-->
+          <div class="slider_timer_container">
+            <div class="slider_timer">
+              <div class="slider_timer_titre">prochaine enchère dans:</div>
             </div>
-          </ul>
-            <ul class="header_nav_ul">
-              <div class="header_nav_menu">
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Catalogue</a></li>
-                <li><a href="#">Restauration</a></li>
-                <li><a href="#">Expertise</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">À Propos</a></li>
-                <li class="header_nav_barecherche">
-                  <input id="header_nav_barecherche_saisie" type="text" placeholder="Tapez votre recherche" name="">
-                  <span class="fas fa-search"></span>
-                </li>
-                <li id="header_nav_onglet_connexion"><a href="#"><p><i class="far fa-user"></i> Connexion</p></a></li>
-              </div>
-            </ul> 
-        </nav>
-        
-      <!-- SLIDER -->
-      <div class="slider">
-        <!-- SLIDER BACKGROUND-->
-        <div class="slider_background">
-          <div class="slider_description">
-            <!-- BLOC TIMER-->
-            <div class="slider_timer_container">
-              <div class="slider_timer">
-                <div class="slider_timer_titre">prochaine enchère dans:</div>    
-            </div>
-  
+
             <div class="slider_timer_chiffres">
-              <div class="slider_timer_7">7<p>jours</p></div>
-              <div class="slider_timer_2">2<p>heures</p></div>
-              <div class="slider_timer_6">6<p>min</p></div>
+              <div class="slider_timer_7">7<p>jours</p>
+              </div>
+              <div class="slider_timer_2">2<p>heures</p>
+              </div>
+              <div class="slider_timer_6">6<p>min</p>
+              </div>
             </div>
-           <div class="slider_timer_bouton">je m'inscris !</div>
+            <div class="slider_timer_bouton">je m'inscris !</div>
           </div>
         </div>
-  
+
         <div class="slider_arrow">
           <div class="slider_arrow_left"><a href="candance.html"><i class="fas fa-chevron-left"></i></a></div>
           <div class="slider_arrow_right"><a href="bubble.html"><i class="fas fa-chevron-right"></i></a></div>
@@ -91,134 +89,109 @@
           <div class="slider_produit_description">Avant les ipad, il y avait les baladeurs cd, avant les baladeurs les walkmans et leurs cassettes audios, outils indispensables de l’époque pour écouter nos sons préférés !</div>
         </div>
       </div>
-    </header>
-    <!-- FIN PARTIE HEADER  -->
+  </header>
+  <!-- FIN PARTIE HEADER  -->
 
-    <!-- PARTIE MAIN : PRÉSENTATION CONCEPT SITE, DESCRIPTION CONTENUS, BANDEAU INFORMATION LIVRAISON/PAIEMENT -->
-    <main>
-      <section>
-        <!-- PRÉSENTATION CONCEPT SITE  -->
-        <article id="presentsite_bloc1" class="articles">
-          <h2>Bienvenue chez 80’s Auction ! Le site de ventes aux enchères consacré à l’univers du Vintage et des année 80.
-            Les années 80 régnaient l’air de l’insouciance et de la
-             liberté, mais surtout les moments feutrés, démesurés que 
-            tout milléniales aguerris sauront vous narrer !</h2>
-        </article>
+  <!-- PARTIE MAIN : PRÉSENTATION CONCEPT SITE, DESCRIPTION CONTENUS, BANDEAU INFORMATION LIVRAISON/PAIEMENT -->
+  <main>
+    <section>
+      <!-- PRÉSENTATION CONCEPT SITE  -->
+      <article id="presentsite_bloc1" class="articles">
+        <h2>Bienvenue chez 80’s Auction ! Le site de ventes aux enchères consacré à l’univers du Vintage et des année 80.
+          Les années 80 régnaient l’air de l’insouciance et de la
+          liberté, mais surtout les moments feutrés, démesurés que
+          tout milléniales aguerris sauront vous narrer !</h2>
+      </article>
 
-        <!-- DESCRIPTION CONTENUS  -->
-        <article id="descripcontenu_bloc2" class="articles">
-          <h3>80’s Auction est le premier site de ventes aux enchères pour dénicher 
-              en exclusivité les dernières nouveautés
-              en matière rétros, vinyles et autres goodies en tous genres.</h3>
-        </article>
-        
-        <!-- BANDEAU INFORMATION LIVRAISON/PAIEMENT -->
-        <div class="bandeauinfopaiement">
-          <div class="truck">
-           <section>
-           <i class="fas fa-truck-moving"></i>
-           <h2>Livraison</h2>
-           </section>
-          </div>
-        
-          <div class="time">
-           <section>
-           <i class="fas fa-clock"></i>
-           <h2>72H</h2>
-           </section>
-          </div>
-      
-          <div class="paiementsécurisé">
-            <section>
+      <!-- DESCRIPTION CONTENUS  -->
+      <article id="descripcontenu_bloc2" class="articles">
+        <h3>80’s Auction est le premier site de ventes aux enchères pour dénicher
+          en exclusivité les dernières nouveautés
+          en matière rétros, vinyles et autres goodies en tous genres.</h3>
+      </article>
+
+      <!-- BANDEAU INFORMATION LIVRAISON/PAIEMENT -->
+      <div class="bandeauinfopaiement">
+        <div class="truck">
+          <section>
+            <i class="fas fa-truck-moving"></i>
+            <h2>Livraison</h2>
+          </section>
+        </div>
+
+        <div class="time">
+          <section>
+            <i class="fas fa-clock"></i>
+            <h2>72H</h2>
+          </section>
+        </div>
+
+        <div class="paiementsécurisé">
+          <section>
             <i class="fas fa-lock"></i>
             <h2>Paiement sécurisé</h2>
-            </section>
-          </div>
+          </section>
         </div>
-      </section>
-    </main>
-
-    <!-- FIN PARTIE MAIN  -->
-
-    <!-- PARTIE FOOTER : NEWSLETTER, MENTIONS LÉGALES, RÉSEAUX SOCIAUX, CGU,CGV, POLITIQUE DE CONFIDENTIALITÉ, CRÉDITS, COPYRIGHT -->
-    <footer>
-      <!-- Newsletter -->
-      <div class="footer_newslet">
-        <form class="footer_newslet_form">
-          <p>Newsletter</p>
-          <input
-            id="footer_newslet_form_email"
-            type="email"
-            placeholder="Saisissez votre email"
-          />
-          <button type="submit" id="footer_newslet_form_button">
-            Envoyer
-          </button>
-        </form>
       </div>
+    </section>
+  </main>
+
+  <!-- FIN PARTIE MAIN  -->
+
+  <!-- PARTIE FOOTER : NEWSLETTER, MENTIONS LÉGALES, RÉSEAUX SOCIAUX, CGU,CGV, POLITIQUE DE CONFIDENTIALITÉ, CRÉDITS, COPYRIGHT -->
+  <footer>
+    <!-- Newsletter -->
+    <div class="footer_newslet">
+      <form class="footer_newslet_form">
+        <p>Newsletter</p>
+        <input id="footer_newslet_form_email" type="email" placeholder="Saisissez votre email" />
+        <button type="submit" id="footer_newslet_form_button">
+          Envoyer
+        </button>
+      </form>
+    </div>
 
     <!-- Contact -->
-      <div class="footer_contact">
-        <a
-        href="https://"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Contact</a
-      >
-      </div>
-      <!-- Réseaux sociaux -->
-      <div class="footer_res">
-        <p>Suivez-nous:
-            <a href="https://fr-fr.facebook.com/" target="_blank"
-          ><i class="fab fa-facebook"></i>
+    <div class="footer_contact">
+      <a href="https://" target="_blank" rel="noopener noreferrer">Contact</a>
+    </div>
+    <!-- Réseaux sociaux -->
+    <div class="footer_res">
+      <p>Suivez-nous:
+        <a href="https://fr-fr.facebook.com/" target="_blank"><i class="fab fa-facebook"></i>
         </a>
-            <a href="https://twitter.com/?lang=fr" target="_blank"
-          ><i class="fab fa-twitter"></i
-        ></a>
-            <a href="https://www.instagram.com/?hl=fr" target="_blank"
-          ><i class="fab fa-instagram"></i
-        ></a>
-            <a href="https://www.pinterest.fr/" target="_blank"
-          ><i class="fab fa-pinterest"></i
-        ></a>
-        </p>
-      </div>
+        <a href="https://twitter.com/?lang=fr" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/?hl=fr" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.pinterest.fr/" target="_blank"><i class="fab fa-pinterest"></i></a>
+      </p>
+    </div>
 
-      <!-- CGU, CGV, Mentions légales, Politique de confidentialité -->
-      <div class="footer_legis">
-        <ul>
-          <li><a href="http://www.inc-conso.fr/content/cgu">CGU</a></li>
-          <li><a href="https://www.legalplace.fr/guides/cgv-obligatoires/">CGV</a></li>
-          <li><a
-            href="https://www.ionos.fr/digitalguide/sites-internet/droit-dinternet/que-doivent-contenir-mentions-legales-dun-site-internet/"
-            >Mentions légales</a
-          ></li>
-          <li><a
-            href="https://www.ionos.fr/digitalguide/sites-internet/droit-dinternet/politique-de-confidentialite-sur-internet/"
-            >Politique de confidentialité</a
-          ></li>
-        </ul>
-      </div>
+    <!-- CGU, CGV, Mentions légales, Politique de confidentialité -->
+    <div class="footer_legis">
+      <ul>
+        <li><a href="http://www.inc-conso.fr/content/cgu">CGU</a></li>
+        <li><a href="https://www.legalplace.fr/guides/cgv-obligatoires/">CGV</a></li>
+        <li><a href="https://www.ionos.fr/digitalguide/sites-internet/droit-dinternet/que-doivent-contenir-mentions-legales-dun-site-internet/">Mentions légales</a></li>
+        <li><a href="https://www.ionos.fr/digitalguide/sites-internet/droit-dinternet/politique-de-confidentialite-sur-internet/">Politique de confidentialité</a></li>
+      </ul>
+    </div>
 
-      <!-- Crédits/Copyright -->
-      <div class="footer_cc">
-        <p id="footer_cc_credits">Crédits : agence CHOCOBEAT</p>
-        <p id="footer_cc_copyright">
-          COPYRIGHT © 80's Auction 2021. Tous droits réservés.
-        </p>
-      </div>
+    <!-- Crédits/Copyright -->
+    <div class="footer_cc">
+      <p id="footer_cc_credits">Crédits : agence CHOCOBEAT</p>
+      <p id="footer_cc_copyright">
+        COPYRIGHT © 80's Auction 2021. Tous droits réservés.
+      </p>
+    </div>
   </footer>
-  <script
-      src="https://kit.fontawesome.com/16019f142c.js"
-      crossorigin="anonymous"
-  ></script>
+  <script src="https://kit.fontawesome.com/16019f142c.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
 
 <!-- FIN PARTIE FOOTER -->
 
 <!-- POP-UP COOKIES
-
 <div id="">
   <p>Bonjour et bienvenue sur 80's auction, 
       Pour les cookies     , c'est vous qui voyez. 
@@ -235,15 +208,12 @@
       Publicités et contenu personnalisés, mesure de performance des publicités et du contenu, données d’audience et 
       développement de produit. 
       Liste de nos partenaires(fournisseurs)</p> 
-
   <button id="">PARAMÉTRER</button>
   <button id="">TOUT ACCEPTER</button>
 </div>
-
 FIN POP-UP COOKIES -->
 
 <!-- POP-UP NEWSLETTER
-
 <div id="">
   <p><i class="far fa-envelope"></i> &nbsp;newsletter ?</p>
   <form id="FormNL">
@@ -252,5 +222,4 @@ FIN POP-UP COOKIES -->
     <a href="#" id="btnNo" class="Btn"> Plus tard</a>
   </form>
 </div>
-
 FIN POP-UP NEWSLETTER-->
