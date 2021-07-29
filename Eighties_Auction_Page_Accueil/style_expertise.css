@@ -1,0 +1,131 @@
+#cont_expertise{
+    background-color: #79f8f8;
+    width:100%;
+    height: 1500px;
+}
+
+/* MAIN */
+
+#grid_1, #grid_2{
+    margin-top:5%;
+}
+img{
+width: 80%;
+margin-top:20%;
+}
+
+/* Grid gauche de l'image centrale */
+#grid_1{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "Ferraille Ferraille"
+    ". Camelote"
+    "Casse Casse";
+}
+
+#ferraille{
+    grid-area: Ferraille;
+    font-size:40px;
+    padding:10%;
+}
+
+#camelote{
+    grid-area: Camelote;
+    font-size:30px;
+}
+#casse{
+    grid-area: Casse;
+    font-size:23px;
+}
+
+/* Grid droite de l'image centrale */
+
+#grid_2{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "Art Art"
+    "Tresor ."
+    "VIP VIP";
+}
+
+#oeuvre_art{
+    grid-area: Art;
+    font-size:30px;
+    padding:10%;
+}
+
+#tresor{
+    grid-area: Tresor;
+    font-size:40px;
+}
+#accessoires_VIP{
+    grid-area: VIP;
+}
+
+#row_titre_estimation, #row_titre_chiffres{
+    font-size: 27px;
+    margin:0;
+}
+
+p{
+    margin:0;
+}
+
+/* Estimations */
+
+#row_titre_estimation{
+    width:100%;
+    height:15%;
+    font-size: 38px;
+}
+
+ #row_estimation{
+     width:100%;
+    height:20%;
+}
+
+.rectangle{
+    height:100%;
+}
+.button_estimation{
+    width: 70%;
+    height:70%;
+    background-color: #442187;
+    font-size:25px;
+}
+/* Modaux */
+
+.modal-content{
+    background-color:#442187 ;
+    color:white;
+    font-family: "Righteous", cursive;
+    font-size:18px;
+    padding:10%;
+}
+
+/* Quelques chiffres */
+
+#row_titre_chiffres{
+    width:100%;
+    height:10%;
+    font-size: 38px;
+}
+#row_chiffres{
+    width:100%;
+   height:20%;
+}
+
+.cercle{
+    clip-path: circle(30% at 50% 50%);
+    background-color: #df2688;
+    font-size:25px;
+    color:white;
+    padding:10%;
+}
+
+
+
