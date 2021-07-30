@@ -1,0 +1,286 @@
+/* nav bar */
+#header_logo_img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .navbar {
+    background-color: #f4f4f4;
+    width: 100%;
+    font-family: "Righteous", cursive;
+  }
+
+  a{
+    font-family: "Bebas Neue";
+    color:#442187;
+  }
+
+#img_search{
+    width:30px;
+}
+/* peremier-border */
+.peremier-border{
+    width: 98%;
+    margin: 1%;
+    background-color: #B7B7B7;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+/* collection */
+.collection{
+    font-family: 'Bebas Neue', cursive;
+    color: #442187;
+    font-size: 38px;
+    position: relative;
+    top: 140px;
+}
+/* obtenez */
+.get-up{
+    font-family: 'Montserrat', sans-serif;
+    color: #442187;
+    font-size: 38px;
+    position: relative;
+    top: 140px;
+}
+/* botton shop now */
+.button{
+    position: relative;
+    top: 150px;
+    left: 100px;
+    height: 45px;
+    padding: 6px;
+    background:cyan;
+    border-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+.button:hover{
+    background: cyan;
+}
+.button:active{
+    background: #51c8d8a8;
+}
+/* image modale */
+.image img{
+    width: 500px;
+    position:relative;
+    left: 200px;
+}
+
+/* banner */
+.banner-category img{
+    width: 100%;
+    position: relative;
+    top: 50px;
+    margin-bottom: 100px;
+}
+/* Botton */
+.banner-category a{
+    position: relative;
+    left: 140px;
+    bottom: 310px;
+    text-decoration: none;
+    border: solid 1px rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+.banner-category a:hover{
+    color: #4b979c ;
+}
+
+/* nouvelles arrrivees */
+.nouvelles{
+    font-family: 'Bebas Neue', cursive;
+    color: #442187;
+    font-size: 38px;
+}
+
+/* le botton all */
+.btn-group{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(255, 255, 255, 0.733);
+    width: 50%;
+    position: relative;
+    top: 20px;
+    left: 270px;
+}
+/* card */
+.prow{
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.drow {
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+
+/* card-text */
+.card-text{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: tomato;
+}
+.card-title{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+/* btn-cart */
+.btn-cart{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: cyan;
+    border: white;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    left: 55px;
+}
+/* heart btn */
+.heart{
+    color: rgb(255 0 0 / 39%);
+    /* position: relative;
+    bottom: 320px;
+    left: 180px; */
+}
+
+/* deal of the week */
+.border{
+    width: 98%;
+    height: 585px;
+    margin: 1%;
+    background-color: #F5F5F5;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+
+.image_deal img{
+    width: 200px;
+    position: relative;
+    top: 20px;
+    left: 110px;
+}
+  
+#headline{
+    font-weight: bold;
+    letter-spacing: 1.125rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #442187;
+    position: relative;
+    bottom: 320px;
+    left: 680px;
+}
+#countdown{
+    position: relative;
+    bottom: 325px;
+    left: 625px;
+}
+.button-2{
+    position: relative;
+    bottom: 335px;
+    left: 850px;
+    height: 45px;
+    padding: 6px;
+    background:cyan;
+    border-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+.button:hover{
+    background: cyan;
+}
+.button:active{
+    background: #51c8d8a8;
+}
+  
+  li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+  
+  .emoji {
+    display: none;
+    padding: 1rem;
+  }
+  
+  .emoji span {
+    font-size: 4rem;
+    padding: 0 .5rem;
+  }
+  
+  @media all and (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+    
+    li {
+      font-size: 1.125rem;
+      padding: .75rem;
+    }
+    
+    li span {
+      font-size: 3.375rem;
+    }
+  }
+
+
+
+  .best_title{
+    font-weight: bold;
+    letter-spacing: 1.125rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #442187;
+    text-align: center;
+    margin-top: 70px;
+  }
+
+  .image_best img{
+      width: 300px;
+      margin: 28px;
+  }
+
+.border-2{
+    width: 100%;
+    margin: 1%;
+    background-color: #F5F5F5;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.service i{
+font-size: 20px;
+}
+.service h3{
+    font-size: 20px;
+    text-align: center;
+}
+.service p{
+    font-size: 20px;
+    text-align: center;
+}
+.service_margin{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}

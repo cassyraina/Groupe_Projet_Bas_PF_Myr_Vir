@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce</title>
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <!-- File css -->
+    <link rel="stylesheet" href="e-commerce.css" />
+    <!-- File JS -->
+    <script src="e-commerce.js"></script>
+  </head>
+  <body>
+
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+
+      <a href="Index.html"><img id="header_logo_img" src="Images/logo.png" alt="logo du site 80's Auction"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item active">
+            <a class="nav-link" href="Index.html">Accueil<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Catalogue</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Restauration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="expertise.html">Expertise</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">A propos</a>
+          </li>
+        </ul>
+
+        <form class="d-flex">
+          <input class="form-control me-1" type="search" placeholder="TAPEZ VOTRE RECHERCHE" aria-label="Search">
+          <button class="btn" type="submit"><img id="img_search" src="search.svg" alt="bouton de recherche"></button>
+        </form>
+
+      <a href="#">
+        <p><i class="far fa-user"></i> Connexion</p>
+      </a>
+      </div>
+    </nav>
+    <!-- permier border -->
+    <div class="peremier-border">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h1 class="collection">Collection printemps / été 1982</h1>
+            <p class="get-up">
+              Obtenez jusqu'à 30% <br />
+              Nouvelles Arrivées
+            </p>
+            <button type="button" class="button mt-3">
+              <span class="button-text">Shop Now</span>
+            </button>
+          </div>
+          <div class="image col-lg-8">
+            <img src="leisure.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Banner -->
+
+    <div class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="banner_item align-item-center">
+              <div class="banner-category">
+                <img
+                  src="the-art-gallery-which-includes-art-and-interior-views.jpg"
+                  alt="Homme & femme"
+                />
+                <a href="#">Homme & Femme</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="banner_item align-item-center">
+              <div class="banner-category">
+                <img
+                  src="how-about-a-pleasant-day-at-the-beach_.jpg"
+                  alt="Homme & femme"
+                />
+                <a href="#">Accessoires</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="banner_item align-item-center">
+              <div class="banner-category">
+                <img src="home-design-background.jpg" alt="Homme & femme" />
+                <a href="#">Home design's</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- New arrivals title -->
+
+    <div class="new-arrivals">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <div class="section_title new_arrivals_title">
+              <h2 class="nouvelles">Nouvelles Arrivées</h2>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+        <!-- section box-->
+        <div
+          class="btn-group"
+          role="group"
+          aria-label="Basic radio toggle button group"
+        >
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio"
+            id="btnradio1"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-info" for="btnradio1">All</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio"
+            id="btnradio2"
+            autocomplete="off"
+          />
+          <label class="btn btn-outline-info" for="btnradio2"
+            >Homme & Femme</label
+          >
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio"
+            id="btnradio3"
+            autocomplete="off"
+          />
+          <label class="btn btn-outline-info" for="btnradio3"
+            >Accessoires</label
+          >
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio"
+            id="btnradio4"
+            autocomplete="off"
+          />
+          <label class="btn btn-outline-info" for="btnradio4"
+            >Home design's</label
+          >
+        </div>
+
+        <!-- produit slider -->
+
+        <!-- produit 1 -->
+        <div class="container mb-5">
+          <div class="row prow">
+            <div class="card col-3" style="width: 15rem">
+              <img
+                src="portrait-of-a-beautiful-woman-sitting-on-a-bar-chair.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+
+              <div class="heart">
+                <i class="far fa-heart"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Femme robe blue</h5>
+                <p class="card-text">25.99€</p>
+                <a href="#" class="btn-cart">Add cart</a>
+              </div>
+            </div>
+
+            <!-- produit 2 -->
+            <div class="card col-3" style="width: 15rem">
+              <img
+                src="smiling-arab-woman.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+
+              <div class="heart">
+                <i class="far fa-heart"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Pantalon femme</h5>
+                <p class="card-text">29.99€</p>
+                <a href="#" class="btn-cart">Add cart</a>
+              </div>
+            </div>
+
+            <!-- produit 3 -->
+            <div class="card col-3" style="width: 15rem">
+              <img src="it-feels-good.jpg" class="card-img-top" alt="..." />
+
+              <div class="heart">
+                <i class="far fa-heart"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">T-shirt homme</h5>
+                <p class="card-text">19.99€</p>
+                <a href="#" class="btn-cart">Add cart</a>
+              </div>
+            </div>
+
+            <!-- produit 4 -->
+            <div class="card col-3" style="width: 15rem">
+              <img
+                src="young-woman-in-red-dress-walking-with-her-hand-on-the-hip.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+
+              <div class="heart">
+                <i class="far fa-heart"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Robe</h5>
+                <p class="card-text">49.99€</p>
+                <a href="#" class="btn-cart">Add cart</a>
+              </div>
+            </div>
+
+            <!-- produit 5 -->
+            <div class="card" style="width: 15rem">
+              <img src="rucksack-full-of-all-needed-items-for-a-little-trip.jpg" class="card-img-top" alt="..." />
+
+              <div class="heart">
+                <i class="far fa-heart"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Sac à dos</h5>
+                <p class="card-text">39.99€</p>
+                <a href="#" class="btn-cart">Add cart</a>
+              </div>
+            </div>
+
+
+             <!-- produit 6 -->
+             <div class="row drow">
+             <div class="card" style="width: 15rem">
+                <img src="pretty-female-looking-at-red-hand-mirror.jpg" class="card-img-top" alt="..." />
+  
+                <div class="heart">
+                  <i class="far fa-heart"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Miroir à main</h5>
+                  <p class="card-text">9.99€</p>
+                  <a href="#" class="btn-cart">Add cart</a>
+                </div>
+              </div>
+
+               <!-- produit 7 -->
+            <div class="card" style="width: 15rem">
+                <img src="two-grey-vases-with-plants,-one-empty-grey-vase-and-quail-eggs.jpg" class="card-img-top" alt="..." />
+  
+                <div class="heart">
+                  <i class="far fa-heart"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Deux vases gris</h5>
+                  <p class="card-text">29.99€</p>
+                  <a href="#" class="btn-cart">Add cart</a>
+                </div>
+              </div>
+
+               <!-- produit 8 -->
+            <div class="card" style="width: 15rem">
+                <img src="christmas-decor-element.jpg" class="card-img-top" alt="..." />
+  
+                <div class="heart">
+                  <i class="far fa-heart"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Décor de Noël</h5>
+                  <p class="card-text">15.99€</p>
+                  <a href="#" class="btn-cart">Add cart</a>
+                </div>
+              </div>
+
+               <!-- produit 9 -->
+            <div class="card" style="width: 15rem">
+                <img src="white-chair-next-to-table.jpg" class="card-img-top" alt="..." />
+  
+                <div class="heart">
+                  <i class="far fa-heart"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Chaise jaune</h5>
+                  <p class="card-text">39.99€</p>
+                  <a href="#" class="btn-cart">Add cart</a>
+                </div>
+              </div>
+
+               <!-- produit 10 -->
+            <div class="card" style="width: 15rem">
+                <img src="home-interior-background.jpg" class="card-img-top" alt="..." />
+  
+                <div class="heart">
+                  <i class="far fa-heart"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Table pour ordi</h5>
+                  <p class="card-text">69.99€</p>
+                  <a href="#" class="btn-cart">Add cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <!-- Deal of the week -->
+      <div class="border">
+
+        <div class="container_deal">
+          <div class="image_deal"><img src="style.png" alt="#"></div>
+    
+              <h1 id="headline">deal of the week</h1>
+
+            <div id="countdown">
+              <ul>
+                <li><span id="days"></span>days</li>
+                <li><span id="hours"></span>Hours</li>
+                <li><span id="minutes"></span>Minutes</li>
+                <li><span id="seconds"></span>Seconds</li>
+              </ul>
+            </div>
+
+            <div id="content" class="emoji">
+              <span>🥳</span>
+              <span>🎉</span>
+              <span>🎂</span>
+            </div>
+          </div>
+          <button type="button" class="button-2 mt-3">
+            <span class="button-text">Shop Now</span>
+          </button>
+        </div>
+      </div>
+
+<!-- Best Sellers -->
+    <div class="best">
+      <h2 class="best_title">meilleurs vendeurs</h2>
+
+      <div class="image_best">
+
+        <img src="smiling-arab-woman.jpg" alt="...">
+        <img src="it-feels-good.jpg" alt="...">
+        <img src="two-grey-vases-with-plants,-one-empty-grey-vase-and-quail-eggs.jpg" alt="...">
+        <img src="travel-accessories.jpg" alt="...">
+
+      </div>
+      
+    </div>
+
+
+
+      <div class="container service_margin">
+
+        <div class="row service">
+
+          <div class="col-3">
+            <div class="border-2 bg-light">
+              <i class="fas fa-truck"></i>
+            <h3>FREE SHIPPING</h3>
+            <p>Suffered Alteration in some 
+              From</p>
+          </div>
+          </div>
+
+          <div class="col-3">
+            <div class="border-2 bg-light">
+              <i class="fas fa-money-bill-wave"></i>
+            <h3>CASH ON DELIVERY</h3>
+            <p>The internet tend
+              to Repeat</p>
+          </div>
+          </div>
+
+          <div class="col-3">
+            <div class="border-2 bg-light">
+              <i class="fas fa-undo"></i>
+            <h3>30 Days RETURN</h3>
+            <p>Making it look like
+              Readable</p>
+          </div>
+          </div>
+
+          <div class="col-3">
+            <div class="border-2 bg-light">
+              <i class="far fa-clock"></i>
+            <h3>OPENING ALL WEEK</h3>
+            <p>8AM - 09PM</p>
+          </div>
+          </div>
+
+          
+        </div>
+      </div>
+      
+
+    <!-- script bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
