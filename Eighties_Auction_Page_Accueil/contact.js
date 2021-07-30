@@ -1,21 +1,21 @@
 function W3docs()                                    
 { 
     var name = document.forms["RegForm"]["Nom"];
-    var name = document.forms["RegForm"]["Prenom"];       
+    var surname = document.forms["RegForm"]["Prenom"];       
     var email = document.forms["RegForm"]["Email"];    
     var phone = document.forms["RegForm"]["Téléphone"];  
-    var what =  document.forms["RegForm"]["message"];  
+    var message =  document.forms["RegForm"]["message"];  
     
-    if (name.value == "")                                  
+    if (nom.value == "")                                  
     { 
         alert("Mettez votre nom."); 
-        name.focus(); 
+        nom.focus(); 
         return false; 
     }    
-    if (address.value == "")                               
+    if (prenom.value == "")                               
     { 
-        alert("Prenom"); 
-        address.focus(); 
+        alert("Prenom."); 
+      prenom.focus(); 
         return false; 
     }        
      
@@ -43,11 +43,31 @@ function W3docs()
         phone.focus(); 
         return false; 
     }    
-    if (password.value == "")                        
+    if (message.value == "")                        
     { 
         alert("Message"); 
-        password.focus(); 
+       message.focus(); 
         return false; 
     }    
     
 }
+
+
+
+
+    setTimeout(function(){
+        popUp.classList.add('none');
+    }, 3000)
+}
+
+
+document.querySelector("#bouton_retour");
+
+retour.addEventListener('click',() =>{
+
+     window.scrollTo({
+         top: 0,
+         left:0,
+     })
+
+})
