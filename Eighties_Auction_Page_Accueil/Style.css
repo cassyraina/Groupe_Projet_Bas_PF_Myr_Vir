@@ -214,7 +214,7 @@
     display: flex;
     flex-direction: column;
     font-family: "Bebas Neue", cursive;
-    color: #df2688;
+    color: #7e7077;
     font-size: 16px;
     justify-content: center;
     margin-top: 15px;
@@ -492,13 +492,29 @@
 
   /*** NAVBAR ***/
 
-  nav {
-    display: flex;
-    background-color: #f4f4f4;
-    height: 65px;
-    padding-top: 25px;
-    width: 100%;
+ /* NAVBAR */
+
+
+
+#header_logo_img {
+    height: 60px;
+    width: 60px;
   }
+
+  .navbar {
+    background-color: #f4f4f4;
+    width: 100%;
+    font-family: "Righteous", cursive;
+  }
+
+  a{
+    font-family: "Bebas Neue";
+    color:#442187;
+  }
+
+#img_search{
+    width:30px;
+}
 
   /*** LOGO SITE ***/
 
@@ -1373,4 +1389,29 @@
   }
 
   /*** FIN FOOTER ***/
+}
+
+
+/* NAVBAR */
+
+
+
+#header_logo_img {
+  height: 60px;
+  width: 60px;
+}
+
+.navbar {
+  background-color: #f4f4f4;
+  width: 100%;
+  font-family: "Righteous", cursive;
+}
+
+a{
+  font-family: "Bebas Neue";
+  color:#442187;
+}
+
+#img_search{
+  width:30px;
 }

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="Style.css" />
+  <link rel="stylesheet" href="Style_expertise.css" />
+  <title>Expertise</title>
+
+</head>
+
+<body>
+  <header>
+
+    <!-- barre de navigation en bootstrap -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <a href="Index.html"><img id="header_logo_img" src="Images/logo.png" alt="logo du site 80's Auction"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="Index.html">Accueil<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Catalogue</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Restauration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="expertise.html">Expertise</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">A propos</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-1" type="search" placeholder="TAPEZ VOTRE RECHERCHE" aria-label="Search">
+          <button class="btn" type="submit"><img id="img_search" src="Images/search.svg" alt="bouton de recherche"></button>
+        </form>
+        
+      <a href="#">
+        <p><i class="far fa-user"></i> Connexion</p>
+      </a>
+      </div>
+    </nav>
+
+  </header>
+
+  <main>
+    <div class="container-fluid" id="cont_expertise">
+      <!-- les grilles de mots avec le groupe d'image au milieu -->
+      <div class="row text-center">
+        <div class=col-lg-4 id="grid_1">
+          <span id="ferraille_art">Ferraille ou oeuvre d'art? </span>
+          <span id="ferraille">Ferraille ? </span>
+          <span id="camelote">Camelote ?</span>
+          <span id="casse">Bon pour la casse ?</span>
+        </div>
+        <div class=col-lg-4><img id="img_groupe" src="Images/images_expertise.JPG" alt="mélange d'images d'objets vintage"> </div>
+        <div class=col-lg-4 id="grid_2">
+          <span id="oeuvre_art">Oeuvre d'art ? </span>
+          <span id="tresor">Trésor ?</span>
+          <span id="accessoires_VIP">Accessoires VIP ?</span>
+        </div>
+      </div>
+<!-- titre partie type d'estimations -->
+      <div class="row" id="row_titre_estimation">
+        <p class="d-flex justify-content-center align-items-center m-4 text-center">Decouvrez la valeur de vos biens en moins de 24H !</p>
+      </div>
+<!-- les types d'estimations -->
+      <div class="row m-4" id="row_estimation">
+        <div class="d-flex col-12 col-md-4 rectangle justify-content-center align-items-center">
+          <button type="button" class="btn btn-primary button_estimation" data-bs-toggle="modal" data-bs-target="#Modal_ligne">
+            Estimation en ligne
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="Modal_ligne" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="d-flex justify-content-end">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                  </button>
+                </div>
+                <p class="d-flex justify-content-start"> Estimez vos biens en trois étapes !
+                <ol>
+                  <li>Prenez des photos et donnez les dimensions</li>
+                  <li>Décrivez votre objet</li>
+                  <li>Renseignez vos coordonnées</li>
+                </ol>
+                Pour cela, remplir ce formulaire d'inscription
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex col-12 col-md-4 rectangle justify-content-center align-items-center">
+          <button type="button" class="btn btn-primary button_estimation" data-bs-toggle="modal" data-bs-target="#Modal_place">
+            Estimation sur place
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="Modal_place" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content d-flex flex-column justify-content-end">
+                <div class="d-flex justify-content-end">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                  </button>
+                </div>
+                <span class="m-4"> Vous souhaitez faire examiner vos biens par nos experts en direct ? Venez nous voir dans nos locaux au :
+                  <div class="text-center m-4"> 1 rue de la Légion d'Honneur, 75007 Paris</div>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex col-12 col-md-4 rectangle justify-content-center align-items-center">
+          <button type="button" class="btn btn-primary button_estimation" data-bs-toggle="modal" data-bs-target="#Modal_domicile">
+            <span>Estimation à domicile</span>
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="Modal_domicile" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content ">
+                <div class="d-flex justify-content-end">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                  </button>
+                </div>
+                <span class="m-4">Vos meubles sont difficilement transportables, ou vos objets aussi fragile que de la porcelaine de Limoges ?</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- titre partie chiffres -->
+      <div class="row" id="row_titre_chiffres">
+        <p class="d-flex justify-content-center align-items-center mt-4">Quelques chiffres</p>
+      </div>
+<!-- les chiffres -->
+      <div class="row text-center" id="row_chiffres">
+        <div class="d-flex col-12 col-md-4 justify-content-center align-items-center cercle ">
+          <p>5735 objets estimés depuis 2016</p>
+        </div>
+
+        <div class="d-flex col-12 col-md-4 justify-content-center align-items-center cercle">
+          <p">6 experts en temps plein</p>
+        </div>
+
+        <div class="d-flex col-12 col-md-4 justify-content-center align-items-center cercle">
+          <p>Vos expertises réalisées en moins de 24H</p>
+        </div>
+      </div>
+      <!-- flèche retour haut -->
+      <div class="row text-center" id="bouton_retour">
+        <div id="button"><img src="Images/up-arrow.svg" alt="flèche pointée vers le haut" id="fleche_haut"></div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <!-- Newsletter -->
+    <div class="footer_newslet">
+      <form class="footer_newslet_form">
+        <p>Newsletter</p>
+        <input id="footer_newslet_form_email" type="email" placeholder="Saisissez votre email" />
+        <button type="submit" id="footer_newslet_form_button">
+          Envoyer
+        </button>
+      </form>
+    </div>
+
+    <!-- Contact -->
+    <div class="footer_contact">
+      <a href="https://" target="_blank" rel="noopener noreferrer">Contact</a>
+    </div>
+    <!-- Réseaux sociaux -->
+    <div class="footer_res">
+      <p>Suivez-nous:
+        <a href="https://fr-fr.facebook.com/" target="_blank"><i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://twitter.com/?lang=fr" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/?hl=fr" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.pinterest.fr/" target="_blank"><i class="fab fa-pinterest"></i></a>
+      </p>
+    </div>
+
+    <!-- CGU, CGV, Mentions légales, Politique de confidentialité -->
+    <div class="footer_legis">
+      <ul>
+        <li><a href="http://www.inc-conso.fr/content/cgu">CGU</a></li>
+        <li><a href="https://www.legalplace.fr/guides/cgv-obligatoires/">CGV</a></li>
+        <li><a href="https://www.ionos.fr/digitalguide/sites-internet/droit-dinternet/que-doivent-contenir-mentions-legales-dun-site-internet/">Mentions légales</a></li>
+        <li><a href="https://www.ionos.fr/digitalguide/sites-internet/droit-dinternet/politique-de-confidentialite-sur-internet/">Politique de confidentialité</a></li>
+      </ul>
+    </div>
+
+    <!-- Crédits/Copyright -->
+    <div class="footer_cc">
+      <p id="footer_cc_credits">Crédits : agence CHOCOBEAT</p>
+      <p id="footer_cc_copyright">
+        COPYRIGHT © 80's Auction 2021. Tous droits réservés.
+      </p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/16019f142c.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+<!-- FIN PARTIE FOOTER -->
+</body>
+
+</html>
