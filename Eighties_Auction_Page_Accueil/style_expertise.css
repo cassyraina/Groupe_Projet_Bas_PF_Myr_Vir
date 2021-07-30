@@ -79,9 +79,7 @@ p{
 
 /* NAVBAR */
 
-#img_search {
-    width: 4%;
-}
+
 
 #header_logo_img {
     height: 60px;
@@ -98,6 +96,10 @@ p{
     font-family: "Bebas Neue";
     color:#442187;
   }
+
+#img_search{
+    width:30px;
+}
 
 #fleche_haut{
     width:30px;

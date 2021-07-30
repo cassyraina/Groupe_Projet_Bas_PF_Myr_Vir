@@ -45,19 +45,17 @@
             <a class="nav-link" href="#">A propos</a>
           </li>
         </ul>
-        <li>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-3" type="search" placeholder="TAPEZ VOTRE RECHERCHE" aria-label="Search">
-            <button class="btn my-2 my-sm-0" type="submit"><img id="img_search" src="Images/search.svg" alt="bouton de recherche"></button>
-          </form>
-        </li>
-        <li id="header_nav_onglet_connexion">
-          <a href="#">
-            <p><i class="far fa-user"></i> Connexion</p>
-          </a>
-        </li>
+        <form class="d-flex">
+          <input class="form-control me-1" type="search" placeholder="TAPEZ VOTRE RECHERCHE" aria-label="Search">
+          <button class="btn" type="submit"><img id="img_search" src="Images/search.svg" alt="bouton de recherche"></button>
+        </form>
+        
+      <a href="#">
+        <p><i class="far fa-user"></i> Connexion</p>
+      </a>
       </div>
     </nav>
+
   </header>
 
   <main>
@@ -168,8 +166,8 @@
         </div>
       </div>
       <!-- flèche retour haut -->
-      <div class="row text-center">
-        <div id='button' onclick='scr_top.init()'><img src="Images/up-arrow.svg" alt="flèche pointée vers le haut" id="fleche_haut"></div>
+      <div class="row text-center" id="bouton_retour">
+        <div id="button"><img src="Images/up-arrow.svg" alt="flèche pointée vers le haut" id="fleche_haut"></div>
       </div>
     </div>
   </main>
